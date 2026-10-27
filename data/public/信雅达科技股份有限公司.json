@@ -1,0 +1,26 @@
+{
+  "name": "信雅达科技股份有限公司",
+  "important_outsourcing": true,
+  "non_resident": false,
+  "cross_border": false,
+  "legal_events": [],
+  "news": [],
+  "financials": {
+    "debt_ratio": 31.44,
+    "current_ratio": 2.5,
+    "quick_ratio": 1.97,
+    "net_margin": 2.62,
+    "roe": 5.48,
+    "operating_cashflow": -142355543.49,
+    "net_profit": 53839761.42,
+    "revenue_yoy": 4.52,
+    "report_period": "2025年年报"
+  },
+  "registration": {
+    "legal_person": "耿俊岭",
+    "established": "1996-07-22",
+    "status": "存续",
+    "stock_code": "600571",
+    "market": "SH"
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "conc|line|手机银行": {
+    "state": "处置中",
+    "workorder_id": "WO-20261016-001",
+    "note": "由预警转入处置工单",
+    "updated_at": "2026-10-16T16:13:40"
+  },
+  "conc|line|网上银行": {
+    "state": "处置中",
+    "workorder_id": "WO-20261016-002",
+    "note": "由预警转入处置工单",
+    "updated_at": "2026-10-16T21:18:11"
+  },
+  "perf|S026|服务水平时效衰减加权分": {
+    "state": "处置中",
+    "note": "［模拟演示］已转处置工单，跟进中",
+    "updated_at": "2026-09-21T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20260921-902"
+  },
+  "perf|S035|服务水平时效衰减加权分": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-10-12T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261015-906"
+  },
+  "comp|第29条|无锡慕果信息技术有限公司|2026-09-01": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-09-27T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261015-906"
+  },
+  "comp|第17条|上海软购信息技术有限公司|2026-08-06": {
+    "state": "处置中",
+    "note": "［模拟演示］已转处置工单，跟进中",
+    "updated_at": "2026-10-06T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20260927-903"
+  },
+  "comp|第29条|深圳市贝特思科技有限公司|2026-09-01": {
+    "state": "已忽略",
+    "note": "［模拟演示］经评估为可接受风险，留痕忽略",
+    "updated_at": "2026-10-11T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示"
+  },
+  "comp|第29条|中互金认证有限公司|2026-06-16": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-10-13T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261015-906"
+  },
+  "comp|第17条|中互金认证有限公司|2026-08-03": {
+    "state": "已忽略",
+    "note": "［模拟演示］经评估为可接受风险，留痕忽略",
+    "updated_at": "2026-10-12T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示"
+  },
+  "comp|第17条|深圳市共济科技股份有限公司|2026-09-16": {
+    "state": "处置中",
+    "note": "［模拟演示］已转处置工单，跟进中",
+    "updated_at": "2026-09-30T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261003-904"
+  },
+  "comp|第17条|上海中软华腾软件系统有限公司|2026-09-12": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-10-04T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261015-906"
+  },
+  "comp|第17条|浙江邦盛科技股份有限公司|2026-08-12": {
+    "state": "处置中",
+    "note": "［模拟演示］已转处置工单，跟进中",
+    "updated_at": "2026-09-29T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20260921-902"
+  },
+  "comp|第17条|中数通信息有限公司|2026-08-04": {
+    "state": "处置中",
+    "note": "［模拟演示］已转处置工单，跟进中",
+    "updated_at": "2026-09-20T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20260921-902"
+  },
+  "perf|S003|服务水平前瞻预警": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-10-15T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261009-905"
+  },
+  "perf|S005|指标连续未达标": {
+    "state": "已忽略",
+    "note": "［模拟演示］经评估为可接受风险，留痕忽略",
+    "updated_at": "2026-09-29T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示"
+  },
+  "perf|S006|指标连续未达标": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-10-13T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261009-905"
+  },
+  "perf|S007|指标连续未达标": {
+    "state": "处置中",
+    "note": "［模拟演示］已转处置工单，跟进中",
+    "updated_at": "2026-10-08T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20260921-902"
+  },
+  "perf|S010|指标连续未达标": {
+    "state": "处置中",
+    "note": "［模拟演示］已转处置工单，跟进中",
+    "updated_at": "2026-09-24T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20260927-903"
+  },
+  "perf|S011|指标连续未达标": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-10-16T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261015-906"
+  },
+  "perf|S012|指标连续未达标": {
+    "state": "处置中",
+    "note": "［模拟演示］已转处置工单，跟进中",
+    "updated_at": "2026-09-23T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261003-904"
+  },
+  "perf|S020|指标连续未达标": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-10-07T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261015-906"
+  },
+  "perf|S021|指标连续未达标": {
+    "state": "已忽略",
+    "note": "［模拟演示］经评估为可接受风险，留痕忽略",
+    "updated_at": "2026-09-30T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示"
+  },
+  "perf|S023|指标连续未达标": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-09-23T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261009-905"
+  },
+  "perf|S024|指标连续未达标": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-10-07T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261009-905"
+  },
+  "perf|S029|指标连续未达标": {
+    "state": "处置中",
+    "note": "［模拟演示］已转处置工单，跟进中",
+    "updated_at": "2026-09-19T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20260921-902"
+  },
+  "perf|S035|指标连续未达标": {
+    "state": "处置中",
+    "note": "［模拟演示］已转处置工单，跟进中",
+    "updated_at": "2026-09-29T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20260914-001"
+  },
+  "contract|S010|missing": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-10-01T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261015-906"
+  },
+  "comp|第34条|恒生电子股份有限公司|2026-12-31": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-10-01T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261009-905"
+  },
+  "comp|第29条|上海中软华腾软件系统有限公司|2026-12-26": {
+    "state": "处置中",
+    "note": "［模拟演示］已转处置工单，跟进中",
+    "updated_at": "2026-09-24T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261003-904"
+  },
+  "comp|第29条|中数通信息有限公司|2026-11-17": {
+    "state": "处置中",
+    "note": "［模拟演示］已转处置工单，跟进中",
+    "updated_at": "2026-09-30T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261003-904"
+  },
+  "comp|第35条|全行（机构级）|2026-12-31": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-10-01T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261015-906"
+  },
+  "contract|S009|unregistered": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-10-16T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261009-905"
+  },
+  "contract|S012|unregistered": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-10-10T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261015-906"
+  },
+  "contract|S023|unregistered": {
+    "state": "处置中",
+    "note": "［模拟演示］已转处置工单，跟进中",
+    "updated_at": "2026-10-03T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261003-904"
+  },
+  "contract|S025|unregistered": {
+    "state": "处置中",
+    "note": "［模拟演示］已转处置工单，跟进中",
+    "updated_at": "2026-10-14T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20260921-902"
+  },
+  "contract|S030|unregistered": {
+    "state": "处置中",
+    "note": "［模拟演示］已转处置工单，跟进中",
+    "updated_at": "2026-10-03T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261003-904"
+  },
+  "comp|第29条|北京捷科智诚科技有限公司|2028-06-14": {
+    "state": "已忽略",
+    "note": "［模拟演示］经评估为可接受风险，留痕忽略",
+    "updated_at": "2026-09-17T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示"
+  },
+  "comp|第17条|北京捷科智诚科技有限公司|2027-07-27": {
+    "state": "处置中",
+    "note": "［模拟演示］已转处置工单，跟进中",
+    "updated_at": "2026-10-08T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20260921-902"
+  },
+  "comp|第29条|上海合合信息科技股份有限公司|2028-05-31": {
+    "state": "已忽略",
+    "note": "［模拟演示］经评估为可接受风险，留痕忽略",
+    "updated_at": "2026-10-12T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示"
+  },
+  "comp|第29条|北京中亦安图科技股份有限公司|2029-02-20": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-10-02T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261009-905"
+  },
+  "comp|第17条|北京中亦安图科技股份有限公司|2027-04-08": {
+    "state": "已忽略",
+    "note": "［模拟演示］经评估为可接受风险，留痕忽略",
+    "updated_at": "2026-10-04T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示"
+  },
+  "comp|第29条|南昌江咨嵘航数科信息发展有限公司|2027-10-26": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-09-22T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261015-906"
+  },
+  "comp|第17条|杭州新中大科技股份有限公司|2027-07-13": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-09-23T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261009-905"
+  },
+  "comp|第17条|北京安泰伟奥信息技术有限公司|2027-03-20": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-09-24T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261015-906"
+  },
+  "comp|第17条|海穗信息技术（上海）有限公司|2027-03-15": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-09-26T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261009-905"
+  },
+  "comp|第29条|恒生电子股份有限公司|2028-06-26": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-10-07T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261009-905"
+  },
+  "comp|第17条|恒生电子股份有限公司|2027-03-13": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-10-12T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261015-906"
+  },
+  "comp|第17条|易联众民生（厦门）科技有限公司和西云擎科技有限公司|2027-03-07": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-09-27T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261009-905"
+  },
+  "comp|第29条|江西瑞智信息有限公司|2027-06-13": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-09-29T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261009-905"
+  },
+  "comp|第17条|上海宏时数据系统有限公司|2027-02-23": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-09-25T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261015-906"
+  },
+  "comp|第29条|北京中科江南信息技术股份有限公司|2027-01-24": {
+    "state": "已闭环",
+    "note": "［模拟演示］整改完成并归档，闭环留痕",
+    "updated_at": "2026-09-22T08:00:00",
+    "_simulated": true,
+    "_source": "模拟演示",
+    "workorder_id": "WO-20261009-905"
+  }
+}

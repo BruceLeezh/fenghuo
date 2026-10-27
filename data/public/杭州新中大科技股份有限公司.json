@@ -1,0 +1,40 @@
+{
+ "name": "杭州新中大科技股份有限公司",
+ "important_outsourcing": false,
+ "non_resident": false,
+ "cross_border": false,
+ "legal_events": [],
+ "news": [
+  {
+   "title": "新中大科技总裁韩爱生荣膺2026浙江省科技型企业家",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2026-06-01",
+   "source": "同花顺 iFinD 资讯",
+   "url": "http://finance.sina.com.cn/tech/roll/2026-06-01/doc-inhzwpyv2518057.shtml",
+   "evidence": "韩爱生先生深耕管理数字化行业25年，长期聚焦智能建造、工程大模型与具身智能前沿领域，精准破解工程行业大模型场景适配性弱、工程项目全周期业务割裂管控难、具身智能行业落地不足、多模态工程数据无法智能协同决策等行业瓶颈难题， 持续开展原创性技术攻关与理论体系构建。科研创新路上，韩爱生先生牵头首创智慧建造4.0理论体系，联合清华大学提出DRP数据资源管理理念并主编《数据资源规划》专著； 主导研发国内首款工"
+  }
+ ],
+ "financials": {
+  "debt_ratio": 42.3761,
+  "current_ratio": null,
+  "quick_ratio": null,
+  "net_margin": 22.5812,
+  "gross_margin": null,
+  "roe": 34.12,
+  "roa": null,
+  "operating_cashflow": 42664561.0,
+  "net_profit": 64192374.0,
+  "revenue": 284270000.0,
+  "total_assets": null,
+  "revenue_yoy": null,
+  "profit_yoy": null,
+  "audit_opinion": null,
+  "report_period": "最新一期(MRQ)"
+ },
+ "registration": {
+  "_adapter": "ifind",
+  "_snapshot_at": "2026-10-17",
+  "_snapshot_sources": "ifind"
+ }
+}

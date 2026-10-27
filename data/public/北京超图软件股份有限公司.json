@@ -1,0 +1,76 @@
+{
+ "name": "北京超图软件股份有限公司",
+ "important_outsourcing": false,
+ "non_resident": false,
+ "cross_border": false,
+ "legal_events": [],
+ "news": [
+  {
+   "title": "超图软件回购进展：已回购454.64万股耗资5451.62万元",
+   "sentiment": "positive",
+   "severity": "low",
+   "published_at": "2026-08-03",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://cj.sina.com.cn/articles/view/7317133861/1b4229a2502001h1z0",
+   "evidence": "超图软件回购进展：已回购454.64万股耗资5451.62万元文|江文 编|深海 8月3日，超图软件（300036）发布关于回购公司股份的进展公告。 公告显示，超图软件于2026年6月10日审议通过回购股份方案，回购总金额不低于4000万元且不超过6000万元，实施期限为自6月10日起6个月内。 截至2026年7月31日，公司已通过集中竞价交易方式回购股份4546.40万股，占公司当前总股本的0."
+  },
+  {
+   "title": "超图软件：2025年净利润4684.52万元同比扭亏 经营业绩拐点显现",
+   "sentiment": "positive",
+   "severity": "low",
+   "published_at": "2026-04-16",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://finance.sina.com.cn/roll/2026-04-16/doc-inhuszry7090523.shtml",
+   "evidence": "每经AI快讯，超图软件(300036)4月16日披露年报，2025年实现营业收入15.09亿元，同比增长0.75%；归母净利润4684.52万元，同比扭亏为盈，上年同期亏损1.71亿元；基本每股收益0.0951元。 公司拟每10股派发现金红利0.3元(含税)。报告期内，公司经营业绩拐点显现，人效水平大幅提升，AI和国际化获得重要突破，成功实现扭亏为盈。 基础软件业务延续增势，其中信创软件项目在上海"
+  },
+  {
+   "title": "300036 超图软件 300036超图软件投资者关系活动记录表20260827",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2026-08-28",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://www.fxbaogao.com/detail/5647078",
+   "evidence": "2026-08-27。未知机构。光影。2026年上半年，超图软件实现营业收入4.27亿元，同比下降29.18%；归母净利润-1.29亿元，由盈转亏。 业绩下滑主要由于收入确认节奏问题（上半年验收项目减少导致收入确认下降）和一次性因素（三个重大样板项目亏损）。回款同比增长16.2%，经营活动现金流净额同比增长31.98%。 超图软件2026年业绩下滑的原因是什么？。2026年上半年，超图软件营业收入"
+  },
+  {
+   "title": "超图软件：2025年度业绩预告",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2026-01-28",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://m.10jqka.com.cn/sn/20260128/55944763.shtml",
+   "evidence": "摘要证券代码：300036 证券简称：超图软件 公告编号：2026-001 北京超图软件股份有限公司2025年度业绩预告 本公司及董事会全体成员。证券代码：300036。证券简称：超图软件。公告编号：2026-001。 北京超图软件股份有限公司2025年度业绩预告。本公司及董事会全体成员保证信息披露的内容真实、准确、完整，没有虚假记载、误导性陈述或重大遗漏。一、本期业绩预计情况。1、业绩预告期间。"
+  },
+  {
+   "title": "超图软件(300036) 分红融资-财务诊断 分红诊断 分红情况 增发机构获配明细 增发概况 配股概况",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2026-10-17",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://basic.10jqka.com.cn/astockpc/astockmain/index.html#/bonus?code=300036&marketid=33&code_name=%E8%B6%85%E5%9B%BE%E8%BD%AF%E4%BB%B6",
+   "evidence": "超图软件(300036) 分红融资-财务诊断 分红诊断 分红情况 增发机构获配明细 增发概况 配股概况。分红诊断。潜在送转股概率 : --。2026中报每股资本公积：3.37元资本公积比较充裕。 2026中报每股未分配利润：0.900元未分配利润不足。2026中报净利润同比增长：-1174.27%业绩下降。总股本：4.928亿股股本规模中等，股本扩张预期不强。潜在派现概率 : 低。 近三年，累计现"
+  }
+ ],
+ "financials": {
+  "debt_ratio": 30.6909,
+  "current_ratio": null,
+  "quick_ratio": null,
+  "net_margin": -30.5499,
+  "gross_margin": null,
+  "roe": -4.92,
+  "roa": null,
+  "operating_cashflow": -209033541.6,
+  "net_profit": -130499953.04,
+  "revenue": 427170000.0,
+  "total_assets": null,
+  "revenue_yoy": null,
+  "profit_yoy": null,
+  "audit_opinion": null,
+  "report_period": "最新一期(MRQ)"
+ },
+ "registration": {
+  "_adapter": "ifind",
+  "_snapshot_at": "2026-10-17",
+  "_snapshot_sources": "ifind"
+ }
+}

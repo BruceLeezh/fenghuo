@@ -1,0 +1,140 @@
+{
+ "name": "福建金科信息技术股份有限公司",
+ "important_outsourcing": true,
+ "non_resident": false,
+ "cross_border": false,
+ "legal_events": [
+  {
+   "title": "涉诉裁判文书（6条）",
+   "severity": "medium",
+   "amount": null,
+   "occurred_at": null,
+   "source": "企查查风控大脑",
+   "evidence": "裁判文书：命中 6 条记录。监管依据：办法第30条(风险识别)",
+   "dimension": "legal",
+   "count": 6
+  },
+  {
+   "title": "法院立案（未结案）（7条）",
+   "severity": "medium",
+   "amount": null,
+   "occurred_at": null,
+   "source": "企查查风控大脑",
+   "evidence": "立案信息：命中 7 条记录。监管依据：办法第30条(风险识别)",
+   "dimension": "legal",
+   "count": 7
+  },
+  {
+   "title": "开庭公告（2条）",
+   "severity": "low",
+   "amount": null,
+   "occurred_at": null,
+   "source": "企查查风控大脑",
+   "evidence": "开庭公告：命中 2 条记录。监管依据：办法第30条(风险识别)",
+   "dimension": "legal",
+   "count": 2
+  },
+  {
+   "title": "股权质押（18条）",
+   "severity": "low",
+   "amount": null,
+   "occurred_at": null,
+   "source": "企查查风控大脑",
+   "evidence": "股权质押：命中 18 条记录。监管依据：办法第33条(集中度风险)",
+   "dimension": "concentration",
+   "count": 18
+  }
+ ],
+ "news": [
+  {
+   "title": "金科信息2026年半年度亏损452.68万同比止盈转亏",
+   "sentiment": "negative",
+   "severity": "medium",
+   "published_at": "2026-07-30",
+   "source": "同花顺 iFinD 资讯",
+   "url": "http://news.10jqka.com.cn/20260730/c678560367.shtml",
+   "evidence": "7月30日，新三板金科信息发布2026年半年度业绩报告。2026年1月1日-2026年6月30日，公司实现营业收入1.13亿元，同比下降5.07%，亏损452.68万元，同比止盈转亏，去年同期盈利74.25万元， 基本每股收益为-0.0600元。公司所属行业IT服务（881271）。福建金科信息技术股份有限公司的主营业务是网络系统集成业务，同时为客户提供IT信息技术咨询和专业的运营维护服务。 公司"
+  },
+  {
+   "title": "福建金科信息技术股份有限公司",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2025-10-29",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://baike.baidu.com/item/%E7%A6%8F%E5%BB%BA%E9%87%91%E7%A7%91%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/20016187",
+   "evidence": "发展历程。公司成立于1993年1月8日，2017年完成定向增发，截至2025年处于存续状态。业务范围。主要业务包括：。1.。计算机信息技术研发与软硬件销售。2.。建筑智能化工程设计与施工。3.。 金融云SaaS服务及信息系统运维。4.。IT教育信息咨询与培训服务。5.。对外贸易及招投标项目参与。企业资质。截至2025年，公司拥有：。高新技术企业认证。专精特新中小企业称号。企业技术中心资质。 11项"
+  },
+  {
+   "title": "福建金科取得基于边缘计算的多数据融合方法及系统专利",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2026-03-13",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://news.sohu.com/a/995916320_114984",
+   "evidence": "国家知识产权局信息显示，福建金科信息技术股份有限公司取得一项名为“一种基于边缘计算的多数据融合方法及系统”的专利，授权公告号CN120974414B，申请日期为2025年8月。 天眼查资料显示，福建金科信息技术股份有限公司，成立于1993年，位于福州市，是一家以从事住宿业为主的企业。企业注册资本8131.2699万人民币。 通过天眼查大数据分析，福建金科信息技术股份有限公司共对外投资了5家企业，参"
+  },
+  {
+   "title": "福建金科信息取得基于路由查询的SD-WAN动态路由方法专利_投资_企业_查大",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2025-11-28",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://business.sohu.com/a/959579525_114984",
+   "evidence": "国家知识产权局信息显示，福建金科信息技术股份有限公司取得一项名为“一种基于路由查询的SD-WAN动态路由方法”的专利，授权公告号CN120583031B，申请日期为2025年7月。 天眼查资料显示，福建金科信息技术股份有限公司，成立于1993年，位于福州市，是一家以从事住宿业为主的企业。企业注册资本8131.2699万人民币。 通过天眼查大数据分析，福建金科信息技术股份有限公司共对外投资了5家企业"
+  },
+  {
+   "title": "福建金科信息取得基于路由查询的SD-WAN动态路由方法专利",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2025-11-28",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://www.163.com/dy/article/KFFUBFCG0519QIKK.html",
+   "evidence": "国家知识产权局信息显示，福建金科信息技术股份有限公司取得一项名为“一种基于路由查询的SD-WAN动态路由方法”的专利，授权公告号CN120583031B，申请日期为2025年7月。 天眼查资料显示，福建金科信息技术股份有限公司，成立于1993年，位于福州市，是一家以从事住宿业为主的企业。企业注册资本8131.2699万人民币。 通过天眼查大数据分析，福建金科信息技术股份有限公司共对外投资了5家企业"
+  }
+ ],
+ "financials": {
+  "debt_ratio": 63.77,
+  "current_ratio": 1.35,
+  "quick_ratio": 0.94,
+  "net_margin": -4.0,
+  "gross_margin": 9.28,
+  "roe": -5.5,
+  "roa": null,
+  "operating_cashflow": -22248458.95,
+  "net_profit": -4526987.66,
+  "revenue": 309230000.0,
+  "total_assets": null,
+  "revenue_yoy": -5.07,
+  "profit_yoy": null,
+  "audit_opinion": null,
+  "report_period": "2026年中报"
+ },
+ "registration": {
+  "credit_code": "91350000154590699L",
+  "legal_person": "何志坚",
+  "registered_capital": "8073.1028万元",
+  "paid_capital": "8073.1028万元",
+  "established": "1993-01-08",
+  "status": "存续（在营、开业、在册）",
+  "company_type": "股份有限公司（非上市、自然人投资或控股）",
+  "industry": {
+   "门类": "科学研究和技术服务业",
+   "大类": "科技推广和应用服务业",
+   "中类": "其他科技推广服务业",
+   "小类": "其他科技推广服务业"
+  },
+  "region": "福建省福州市马尾区",
+  "address": "福建省福州市马尾区兴业西路12号联东U谷福州物联网产业园7A（自贸试验区内）",
+  "staff_scale": "100-199人",
+  "insured_count": "171",
+  "business_scope": "计算机信息技术研发；计算机软、硬件及辅助设备、通信设备的销售；建筑智能化工程的设计、施工；教育信息咨询；对外贸易；信息系统集成服务；运行维护服务。（依法须经批准的项目，经相关部门批准后方可开展经营活动）",
+  "_data_source": "企查查MCP(实时)",
+  "_partial": true,
+  "_fetch_errors": [
+   "get_shareholder_info: QCCError: get_shareholder_info 调用失败: {'code': 300008, 'message': '当前积分余额不足，无法完成本次调用。企查查MCP服务现已支持在线充值，完成充值后即可立即继续使用。请提示用户前往 https://agent.qcc.com/ 充值。', 'data': {'service': 'qichacha_mcp_service', 'error_type': "
+  ],
+  "_adapter": "qcc,ifind",
+  "_snapshot_at": "2026-10-17",
+  "_snapshot_sources": "qcc,ifind"
+ }
+}

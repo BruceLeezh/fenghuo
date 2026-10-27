@@ -1,0 +1,54 @@
+{
+  "name": "恒生电子股份有限公司",
+  "important_outsourcing": true,
+  "non_resident": false,
+  "cross_border": false,
+  "legal_events": [
+    {
+      "title": "法定代表人变更",
+      "severity": "medium",
+      "amount": null,
+      "occurred_at": "2025-05-14",
+      "source": "企查查工商变更",
+      "evidence": "刘曙峰 → 彭政纲"
+    },
+    {
+      "title": "地址变更",
+      "severity": "low",
+      "amount": null,
+      "occurred_at": "2024-07-16",
+      "source": "企查查工商变更",
+      "evidence": "江南大道 → 滨兴路"
+    },
+    {
+      "title": "注册资本变更",
+      "severity": "low",
+      "amount": null,
+      "occurred_at": "2026-08-17",
+      "source": "企查查工商变更",
+      "evidence": "189473.42万 → 189364.79万"
+    }
+  ],
+  "news": [],
+  "financials": {
+    "debt_ratio": 32.47,
+    "current_ratio": 1.34,
+    "quick_ratio": 1.2,
+    "net_margin": 22.24,
+    "roe": 13.33,
+    "operating_cashflow": 1066754032.01,
+    "net_profit": 1286128861.35,
+    "revenue_yoy": -12.13,
+    "report_period": "2025年年报"
+  },
+  "registration": {
+    "legal_person": "彭政纲",
+    "registered_capital": "189364.7942万元",
+    "established": "2000-12-13",
+    "status": "存续",
+    "industry": "应用软件开发",
+    "region": "浙江省杭州市滨江区",
+    "stock_code": "600570",
+    "market": "SH"
+  }
+}

@@ -1,0 +1,30 @@
+{
+ "name": "北京中亦安图科技股份有限公司",
+ "important_outsourcing": false,
+ "non_resident": false,
+ "cross_border": false,
+ "legal_events": [],
+ "news": [],
+ "financials": {
+  "debt_ratio": 26.0388,
+  "current_ratio": null,
+  "quick_ratio": null,
+  "net_margin": 3.4864,
+  "gross_margin": null,
+  "roe": 1.47,
+  "roa": null,
+  "operating_cashflow": -322204596.34,
+  "net_profit": 23015773.0,
+  "revenue": 660160000.0,
+  "total_assets": null,
+  "revenue_yoy": null,
+  "profit_yoy": null,
+  "audit_opinion": null,
+  "report_period": "最新一期(MRQ)"
+ },
+ "registration": {
+  "_adapter": "ifind",
+  "_snapshot_at": "2026-10-17",
+  "_snapshot_sources": "ifind"
+ }
+}

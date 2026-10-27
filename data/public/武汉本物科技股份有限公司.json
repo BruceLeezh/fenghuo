@@ -1,0 +1,58 @@
+{
+ "name": "武汉本物科技股份有限公司",
+ "important_outsourcing": false,
+ "non_resident": false,
+ "cross_border": false,
+ "legal_events": [],
+ "news": [
+  {
+   "title": "武汉本物科技股份有限公司",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2026-08-03",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://m.tianyancha.com/sabnormal/763438448-3929",
+   "evidence": "简介：武汉本物科技股份有限公司 (曾用名：武汉紫荆信达科技发展有限公司) ，成立于2006年，位于湖北省武汉市，是一家以从事专业技术服务业为主的企业。企业注册资本2000万人民币，实缴资本2000万人民币。 通过天眼查大数据分析，武汉本物科技股份有限公司共对外投资了6家企业，参与招投标项目176次；知识产权方面有商标信息28条，专利信息34条，著作权信息30条；此外企业还拥有行政许可27个。风险方"
+  },
+  {
+   "title": "本物科技申请暖通空调过滤器在线自动清污系统专利，实现无人值守的自动清洗",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2025-12-29",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://www.sohu.com/a/970607648_114984",
+   "evidence": "国家知识产权局信息显示，武汉本物科技股份有限公司申请一项名为“暖通空调系统中过滤器在线自动清污系统”的专利，公开号CN121206619A，申请日期为2025年10月。 天眼查资料显示，武汉本物科技股份有限公司，成立于2006年，位于武汉市，是一家以从事专业技术服务业为主的企业。企业注册资本2000万人民币。 通过天眼查大数据分析，武汉本物科技股份有限公司共对外投资了5家企业，参与招投标项目164"
+  },
+  {
+   "title": "武汉本物科技取得气电空热源调度方法专利",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2026-07-14",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://www.163.com/dy/article/L1QE9VQ50519QIKK.html",
+   "evidence": "国家知识产权局信息显示，武汉本物科技股份有限公司取得一项名为“一种气电空热源调度方法、装置及电子设备”的专利，授权公告号CN117433052B，申请日期为2023年11月。 天眼查资料显示，武汉本物科技股份有限公司，成立于2006年，位于武汉市，是一家以从事专业技术服务业为主的企业。企业注册资本2000万人民币。 通过天眼查大数据分析，武汉本物科技股份有限公司共对外投资了6家企业，参与招投标项目"
+  }
+ ],
+ "financials": {
+  "debt_ratio": 35.0203,
+  "current_ratio": null,
+  "quick_ratio": null,
+  "net_margin": 8.7509,
+  "gross_margin": null,
+  "roe": 2.03,
+  "roa": null,
+  "operating_cashflow": 6097802.0,
+  "net_profit": 3305113.0,
+  "revenue": 37768915.0,
+  "total_assets": null,
+  "revenue_yoy": null,
+  "profit_yoy": null,
+  "audit_opinion": null,
+  "report_period": "最新一期(MRQ)"
+ },
+ "registration": {
+  "_adapter": "ifind",
+  "_snapshot_at": "2026-10-17",
+  "_snapshot_sources": "ifind"
+ }
+}

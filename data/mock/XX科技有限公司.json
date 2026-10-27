@@ -1,0 +1,47 @@
+{
+  "name": "XX科技有限公司",
+  "important_outsourcing": true,
+  "non_resident": false,
+  "cross_border": false,
+  "legal_events": [
+    {
+      "title": "被列为被执行人",
+      "severity": "high",
+      "amount": "1200000",
+      "occurred_at": "2026-08-15",
+      "source": "裁判文书网",
+      "evidence": "因合同纠纷被列为被执行人，执行标的120万元。"
+    },
+    {
+      "title": "行政处罚",
+      "severity": "medium",
+      "amount": null,
+      "occurred_at": "2026-06-10",
+      "source": "市监局",
+      "evidence": "因未按期公示年度报告被处以行政处罚。"
+    }
+  ],
+  "news": [
+    {
+      "title": "XX科技被曝核心系统故障导致服务中断",
+      "sentiment": "negative",
+      "severity": "high",
+      "published_at": "2026-08-20",
+      "source": "财经新闻",
+      "url": "https://example.com/news/1",
+      "evidence": "多家媒体报道其核心系统故障。"
+    }
+  ],
+  "financials": {
+    "debt_ratio": 72.5,
+    "current_ratio": 1.1,
+    "quick_ratio": 0.8,
+    "net_margin": -3.2,
+    "roe": -5.0,
+    "operating_cashflow": -800.0,
+    "net_profit": -1200.0,
+    "revenue_yoy": -15.0,
+    "profit_yoy": -180.0,
+    "audit_opinion": "保留意见"
+  }
+}

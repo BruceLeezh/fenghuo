@@ -1,0 +1,30 @@
+{
+ "name": "江西诚韬科技有限公司",
+ "important_outsourcing": false,
+ "non_resident": false,
+ "cross_border": false,
+ "legal_events": [],
+ "news": [],
+ "financials": {
+  "debt_ratio": 59.1642,
+  "current_ratio": null,
+  "quick_ratio": null,
+  "net_margin": 13.9231,
+  "gross_margin": null,
+  "roe": 31.55,
+  "roa": null,
+  "operating_cashflow": 9440225.0,
+  "net_profit": 24511552.0,
+  "revenue": 176050000.0,
+  "total_assets": null,
+  "revenue_yoy": null,
+  "profit_yoy": null,
+  "audit_opinion": null,
+  "report_period": "最新一期(MRQ)"
+ },
+ "registration": {
+  "_adapter": "ifind",
+  "_snapshot_at": "2026-10-17",
+  "_snapshot_sources": "ifind"
+ }
+}

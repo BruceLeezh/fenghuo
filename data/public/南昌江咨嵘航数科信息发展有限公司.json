@@ -1,0 +1,40 @@
+{
+ "name": "南昌江咨嵘航数科信息发展有限公司",
+ "important_outsourcing": false,
+ "non_resident": false,
+ "cross_border": false,
+ "legal_events": [],
+ "news": [
+  {
+   "title": "江西省江咨金发数据科技发展有限公司",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2025-10-30",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://baike.baidu.com/item/%E6%B1%9F%E8%A5%BF%E7%9C%81%E6%B1%9F%E5%92%A8%E9%87%91%E5%8F%91%E6%95%B0%E6%8D%AE%E7%A7%91%E6%8A%80%E5%8F%91%E5%B1%95%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/51900899",
+   "evidence": "江西省江咨金发数据科技发展有限公司成立于2019年12月5日，法定代表人为赵水平（2023年9月12日前为付丽霞），注册资本500万元（实缴339万元），属江西国资控股集团旗下其他有限责任公司， 总部位于江西省南昌市高新区嘉德商业广场。公司主营计算机软件技术开发、数据处理及存储服务、供应链管理，同时涵盖第一类及第二类增值电信业务、互联网销售（除许可商品）、信息系统集成等业务领域。 该公司为高新技术"
+  }
+ ],
+ "financials": {
+  "debt_ratio": 50.9001,
+  "current_ratio": null,
+  "quick_ratio": null,
+  "net_margin": 8.5648,
+  "gross_margin": null,
+  "roe": 7.85,
+  "roa": null,
+  "operating_cashflow": -1714520.88,
+  "net_profit": 2770229.0,
+  "revenue": 32344349.000000004,
+  "total_assets": null,
+  "revenue_yoy": null,
+  "profit_yoy": null,
+  "audit_opinion": null,
+  "report_period": "最新一期(MRQ)"
+ },
+ "registration": {
+  "_adapter": "ifind",
+  "_snapshot_at": "2026-10-17",
+  "_snapshot_sources": "ifind"
+ }
+}

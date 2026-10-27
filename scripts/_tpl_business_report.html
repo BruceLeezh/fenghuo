@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="docx-page-size" content="A4">
+  <title>{{report_title}}</title>
+  <style>
+  /* --- 页面模型：正文页脚居中页码，封面无页码 --- */
+  @page {
+    @bottom-center { content: counter(page); }
+  }
+  @page cover {
+    @bottom-center { content: none; }
+  }
+  section[role="cover"] { page: cover; }
+
+  :root {
+    /* --- 别名映射：把 design-token 的变量接到本模板使用的短名上 --- */
+    --fs-h1: var(--typography-fontSize-h1, 26pt);
+    --fs-h2: var(--typography-fontSize-h2, 17pt);
+    --fs-h3: var(--typography-fontSize-h3, 14pt);
+    --fs-h4: var(--typography-fontSize-h4, 12pt);
+    --fs-body: var(--typography-fontSize-body, 12pt);
+    --fs-small: var(--typography-fontSize-small, 10pt);
+    --ff-heading: var(--typography-fontFamily-heading, "微软雅黑", "Microsoft YaHei", sans-serif);
+    --ff-body: var(--typography-fontFamily-body, "微软雅黑", "Microsoft YaHei", sans-serif);
+    --ff-mono: var(--typography-fontFamily-mono, Consolas, monospace);
+    --lh-body: var(--typography-lineHeight-body, 1.65);
+    --lh-heading: var(--typography-lineHeight-heading, 1.25);
+    --fw-bold: var(--typography-fontWeight-bold, 700);
+    --fw-normal: var(--typography-fontWeight-normal, 400);
+    --color-primary: var(--color-primary, #14539c);
+    --color-text: var(--color-text, #1c2532);
+    --color-muted: var(--color-muted, #5a6675);
+    --color-border: var(--color-border, #d6dee8);
+    --color-bg: var(--color-bg, #ffffff);
+    --color-highlight: var(--color-highlight, #f2f6fb);
+    --margin-page: var(--layout-margin, 2.5cm);
+    /* --- 间距刻度（供本模板样式统一引用，避免裸数值） --- */
+    --spacing-xs: 0.3em;
+    --spacing-sm: 0.5em;
+    --spacing-md: 0.85em;
+    --spacing-lg: 1.5em;
+    --spacing-xl: 2.4em;
+    --radius-sm: 3px;
+    --radius-md: 6px;
+{{CSS_VARS}}
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: var(--ff-body); font-size: var(--fs-body); line-height: var(--lh-body);
+         color: var(--color-text); background: var(--color-bg); }
+
+  /* ---------- 封面 ---------- */
+  .report-cover {
+    display: flex; flex-direction: column; justify-content: center; align-items: flex-start;
+    min-height: 60vh; padding: var(--margin-page); background: var(--color-highlight);
+  }
+  .cover-category { font-size: var(--typography-fontSize-coverCategory, 14pt);
+                    font-family: var(--ff-heading); font-weight: var(--fw-bold);
+                    color: var(--color-primary); letter-spacing: 0.08em;
+                    margin-bottom: var(--spacing-md); }
+  .cover-title { font-size: var(--fs-h1); font-family: var(--ff-heading); font-weight: var(--fw-bold);
+                 color: var(--color-primary); margin-bottom: var(--spacing-sm); }
+  .cover-subtitle { font-size: var(--fs-h2); color: var(--color-muted);
+                    margin-bottom: var(--spacing-xl); }
+  .cover-meta { font-size: var(--fs-small); color: var(--color-muted); }
+
+  /* ---------- 目录 ---------- */
+  .doc-toc { padding: var(--spacing-md) var(--margin-page); background: var(--color-bg);
+             border-bottom: 1px solid var(--color-border); }
+  .toc-title { font-weight: var(--fw-bold); margin-bottom: var(--spacing-sm);
+               font-family: var(--ff-heading); font-size: var(--fs-h3); }
+  .toc-list { list-style: none; list-style-type: none; padding-left: 0; }
+  .toc-list li { margin-bottom: var(--spacing-xs); text-indent: 0; }
+  .toc-list a { color: var(--color-primary); text-decoration: none; }
+
+  /* ---------- 执行摘要 ---------- */
+  .executive-summary {
+    margin: var(--spacing-xl) var(--margin-page) 0;
+    padding: var(--spacing-lg);
+    border-left: 4px solid var(--color-primary);
+    background: var(--color-highlight);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  }
+  .summary-header { display: flex; align-items: baseline; gap: var(--spacing-md);
+                    margin-bottom: var(--spacing-sm); }
+  .summary-header h2 { font-size: var(--fs-h2); font-family: var(--ff-heading);
+                       color: var(--color-primary); margin: 0; }
+  .summary-badge { font-size: var(--fs-small); color: var(--color-muted); font-style: italic; }
+  .summary-body p { margin-bottom: var(--spacing-sm); text-align: justify; }
+
+  /* ---------- 正文 ---------- */
+  .report-body { padding: var(--spacing-xl) var(--margin-page); }
+  .report-body h1 { font-size: var(--fs-h1); font-family: var(--ff-heading); }
+  .report-body h2 { font-size: var(--fs-h2); font-family: var(--ff-heading); font-weight: var(--fw-bold);
+                    color: var(--color-primary); margin-top: var(--spacing-xl);
+                    margin-bottom: var(--spacing-md); }
+  .report-body h3 { font-size: var(--fs-h3); font-family: var(--ff-heading); font-weight: var(--fw-bold);
+                    margin-top: var(--spacing-lg); margin-bottom: var(--spacing-md); }
+  .report-body h4 { font-size: var(--fs-h4); font-family: var(--ff-heading); font-weight: var(--fw-bold);
+                    margin-top: var(--spacing-lg); margin-bottom: var(--spacing-md); }
+  .report-body p { margin-bottom: var(--spacing-md); text-align: justify; }
+  .report-body ul, .report-body ol { padding-left: var(--spacing-lg);
+                                     margin-bottom: var(--spacing-md); }
+  .report-body li { margin-bottom: var(--spacing-xs); }
+  .report-body table { border-collapse: collapse; width: 100%; margin-bottom: var(--spacing-md); }
+  .report-body th, .report-body td { padding: var(--spacing-sm); border: 1px solid var(--color-border);
+                                     text-align: left; vertical-align: top; }
+  .report-body th { font-weight: var(--fw-bold); background: var(--color-highlight); }
+  .report-body blockquote { margin: var(--spacing-md) 0; padding: var(--spacing-sm) var(--spacing-md);
+                            border-left: 4px solid var(--color-primary); background: var(--color-highlight); }
+  .report-body hr { border: none; border-top: 1px solid var(--color-border);
+                    margin: var(--spacing-lg) 0; }
+  .report-body code { font-family: var(--ff-mono); background: var(--color-highlight);
+                      padding: 0 var(--spacing-xs); border-radius: var(--radius-sm);
+                      font-size: var(--fs-small); }
+  tr { page-break-inside: avoid; }
+  </style>
+</head>
+<body>
+  <section role="cover" class="report-cover">
+    <p class="cover-category">{{report_category}}</p>
+    <h1 class="cover-title">{{report_title}}</h1>
+    <p class="cover-subtitle">{{report_subtitle}}</p>
+    <div class="cover-meta"><p>{{cover_meta}}</p></div>
+  </section>
+
+  <section role="body" class="report-body" data-page-restart="1">
+    <nav class="doc-toc" aria-label="文档目录">
+      <p class="toc-title">目录</p>
+      <ol class="toc-list">
+{{toc_items}}
+      </ol>
+    </nav>
+
+    <div class="executive-summary">
+      <div class="summary-header">
+        <h2>执行摘要</h2>
+        <span class="summary-badge">Executive Summary</span>
+      </div>
+      <div class="summary-body">{{executive_summary}}</div>
+    </div>
+
+    <main>{{report_content}}</main>
+  </section>
+</body>
+</html>

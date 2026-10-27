@@ -1,0 +1,26 @@
+{
+  "name": "京北方信息技术股份有限公司",
+  "important_outsourcing": true,
+  "non_resident": false,
+  "cross_border": false,
+  "legal_events": [],
+  "news": [],
+  "financials": {
+    "debt_ratio": 16.31,
+    "current_ratio": 5.31,
+    "quick_ratio": 5.2,
+    "net_margin": 6.77,
+    "roe": 11.32,
+    "operating_cashflow": 464585115.3,
+    "net_profit": 327388083.1,
+    "revenue_yoy": 4.38,
+    "report_period": "2025年年报"
+  },
+  "registration": {
+    "legal_person": "费振勇",
+    "established": "2009-12-16",
+    "status": "存续",
+    "stock_code": "002987",
+    "market": "SZ"
+  }
+}

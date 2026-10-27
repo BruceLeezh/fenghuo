@@ -1,0 +1,10 @@
+# 运行时依赖（最低版本；可复现构建请用 requirements.lock.txt 的精确版本）
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-docx>=1.1
+openpyxl>=3.1
+# PDF 解析。PyMuPDF 为 AGPL-3.0：内部使用无碍；若要作为商业产品分发，请改用
+# pypdf（BSD-3-Clause，pip install pypdf）——代码里已有 pypdf 兜底路径。
+PyMuPDF>=1.24
+openai>=1.30
+python-multipart>=0.0.9

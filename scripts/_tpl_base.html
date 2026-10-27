@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="docx-page-size" content="A4">
+  <title>{{document_title}}</title>
+  <style>
+  :root {
+    /* --- 别名映射：把 design-token 的变量接到本模板使用的短名上 --- */
+    --page-content-width: var(--layout-contentWidth, 15.6cm);
+    --fs-h1: var(--typography-fontSize-h1, 22pt);
+    --fs-h2: var(--typography-fontSize-h2, 18pt);
+    --fs-h3: var(--typography-fontSize-h3, 14pt);
+    --fs-h4: var(--typography-fontSize-h4, 12pt);
+    --fs-body: var(--typography-fontSize-body, 12pt);
+    --fs-small: var(--typography-fontSize-small, 10pt);
+    --ff-heading: var(--typography-fontFamily-heading, "黑体", SimHei, sans-serif);
+    --ff-body: var(--typography-fontFamily-body, "宋体", SimSun, serif);
+    --ff-mono: var(--typography-fontFamily-mono, monospace);
+    --lh-body: var(--typography-lineHeight-body, 1.6);
+    --lh-heading: var(--typography-lineHeight-heading, 1.25);
+    --fw-bold: var(--typography-fontWeight-bold, 700);
+    --fw-normal: var(--typography-fontWeight-normal, 400);
+    --color-primary: var(--color-primary, #1a4f8f);
+    --color-text: var(--color-text, #1c2532);
+    --color-muted: var(--color-muted, #5a6675);
+    --color-border: var(--color-border, #d6dee8);
+    --color-bg: var(--color-bg, #ffffff);
+    --color-highlight: var(--color-highlight, #f4f8fd);
+    --margin-page: var(--layout-margin, 2.5cm);
+    /* --- 间距刻度（供本模板样式统一引用，避免裸数值） --- */
+    --spacing-xs: 0.3em;
+    --spacing-sm: 0.5em;
+    --spacing-md: 0.8em;
+    --spacing-lg: 1.2em;
+    --radius-sm: 3px;
+{{CSS_VARS}}
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+    line-height: var(--lh-body);
+    color: var(--color-text);
+    background: var(--color-bg);
+    max-width: var(--page-content-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--margin-page) 0;
+  }
+
+  .doc-header { margin-bottom: var(--spacing-lg); }
+  .doc-title { font-size: var(--fs-h1); font-family: var(--ff-heading);
+               color: var(--color-primary); margin-bottom: var(--spacing-xs); }
+  .doc-meta { font-size: var(--fs-small); color: var(--color-muted); }
+
+  h1, h2, h3, h4 {
+    font-family: var(--ff-heading);
+    line-height: var(--lh-heading);
+    font-weight: var(--fw-bold);
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
+  }
+  h1 { font-size: var(--fs-h1); }
+  h2 { font-size: var(--fs-h2); color: var(--color-primary); }
+  h3 { font-size: var(--fs-h3); }
+  h4 { font-size: var(--fs-h4); }
+
+  p { margin-bottom: var(--spacing-md); text-align: justify; }
+  ul, ol { padding-left: var(--spacing-lg); margin-bottom: var(--spacing-md); }
+  li { margin-bottom: var(--spacing-xs); }
+
+  table { border-collapse: collapse; width: 100%; margin-bottom: var(--spacing-md); }
+  th, td { padding: var(--spacing-sm); border: 1px solid var(--color-border); text-align: left; }
+  th { font-weight: var(--fw-bold); background: var(--color-highlight); }
+
+  blockquote { margin: var(--spacing-md) 0; padding: var(--spacing-sm) var(--spacing-md);
+               border-left: 4px solid var(--color-primary); background: var(--color-highlight); }
+  hr { border: none; border-top: 1px solid var(--color-border); margin: var(--spacing-lg) 0; }
+  code { font-family: var(--ff-mono); background: var(--color-highlight);
+         padding: 0 var(--spacing-xs); border-radius: var(--radius-sm); font-size: var(--fs-small); }
+  </style>
+</head>
+<body>
+  <header class="doc-header">{{header_content}}</header>
+  <main class="doc-main">{{main_content}}</main>
+</body>
+</html>

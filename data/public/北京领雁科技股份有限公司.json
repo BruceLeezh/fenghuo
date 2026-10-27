@@ -1,0 +1,36 @@
+{
+ "name": "北京领雁科技股份有限公司",
+ "important_outsourcing": false,
+ "non_resident": false,
+ "cross_border": false,
+ "legal_events": [],
+ "news": [],
+ "financials": {
+  "debt_ratio": 72.9799,
+  "current_ratio": null,
+  "quick_ratio": null,
+  "net_margin": -49.6945,
+  "gross_margin": null,
+  "roe": -24.16,
+  "roa": null,
+  "operating_cashflow": -4561476.03,
+  "net_profit": -1678417.2,
+  "revenue": 3377468.0,
+  "total_assets": null,
+  "revenue_yoy": null,
+  "profit_yoy": null,
+  "audit_opinion": null,
+  "report_period": "最新一期(MRQ)"
+ },
+ "registration": {
+  "_data_source": "企查查MCP(实时)",
+  "_partial": true,
+  "_fetch_errors": [
+   "get_shareholder_info: QCCError: get_shareholder_info 调用失败: {'code': 300008, 'message': '当前积分余额不足，无法完成本次调用。企查查MCP服务现已支持在线充值，完成充值后即可立即继续使用。请提示用户前往 https://agent.qcc.com/ 充值。', 'data': {'service': 'qichacha_mcp_service', 'error_type': ",
+   "get_company_risk_scan: 调用失败"
+  ],
+  "_adapter": "ifind,qcc",
+  "_snapshot_at": "2026-10-17",
+  "_snapshot_sources": "ifind,qcc"
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "name": "北京捷科智诚科技有限公司",
+ "important_outsourcing": true,
+ "non_resident": false,
+ "cross_border": false,
+ "legal_events": [
+  {
+   "title": "涉诉裁判文书（6条）",
+   "severity": "medium",
+   "amount": null,
+   "occurred_at": null,
+   "source": "企查查风控大脑",
+   "evidence": "裁判文书：命中 6 条记录。监管依据：办法第30条(风险识别)",
+   "dimension": "legal",
+   "count": 6
+  },
+  {
+   "title": "法院立案（未结案）（4条）",
+   "severity": "medium",
+   "amount": null,
+   "occurred_at": null,
+   "source": "企查查风控大脑",
+   "evidence": "立案信息：命中 4 条记录。监管依据：办法第30条(风险识别)",
+   "dimension": "legal",
+   "count": 4
+  },
+  {
+   "title": "开庭公告（10条）",
+   "severity": "low",
+   "amount": null,
+   "occurred_at": null,
+   "source": "企查查风控大脑",
+   "evidence": "开庭公告：命中 10 条记录。监管依据：办法第30条(风险识别)",
+   "dimension": "legal",
+   "count": 10
+  }
+ ],
+ "news": [
+  {
+   "title": "强强联合！均瑜咨询正式成为捷科全资子公司，金融测试服务能力再攀新高",
+   "sentiment": "positive",
+   "severity": "low",
+   "published_at": "2026-09-01",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://stock.10jqka.com.cn/20260901/c679499206.shtml",
+   "evidence": "1、上海均瑜管理咨询有限公司成为北京捷科智诚科技有限公司全资子公司。双方将构建金融测试领域“标准定义+落地实施”的闭环服务模式，让金融机构客户在获得业务场景解决方案的同时，同步对标国际标准，实现质量管控的持续优化和测试效能的最佳保障。\n近日，上海均瑜管理咨询有限公司(以下简称“均瑜咨询”)正式成为北京捷科智诚科技有限公司(以下简称“捷科”)的全资子公司。此次整合的价值不止于能力的叠加，通过双方优势"
+  },
+  {
+   "title": "千万级中标！捷科数字人民币测试项目实现里程碑突破",
+   "sentiment": "positive",
+   "severity": "low",
+   "published_at": "2026-05-12",
+   "source": "同花顺 iFinD 资讯",
+   "url": "http://news.10jqka.com.cn/19700121/c676621965.shtml",
+   "evidence": "近日，江苏润和软件股份有限公司旗下独立运营的金融科技子公司——北京捷科智诚科技有限公司（以下简称“捷科”）凭借在金融测试领域长期积累的体系化能力与规模化交付优势，融合领先的测试技术实力、成熟的产品化解决方案及对数字人民币场景的深度实践经验，在多家实力厂商的激烈竞争中脱颖而出，成功中标某大型城商行千万级数字人民币系统测试项目。 捷科中标某大型城商行千万级数字人民币系统测试项目 数字人民币作为国家法定"
+  },
+  {
+   "title": "全球百强！捷科荣登2026年度IDC全球金融科技榜单",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2026-10-14",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://baijiahao.baidu.com/s?for=pc&id=1878989639941183641&wfr=spider",
+   "evidence": "近日，国际权威市场研究机构IDC（International Data Corporation）正式揭晓2026年度IDC全球金融科技排行榜（IDC FinTech Rankings）。江苏润和软件股份有限公司旗下子公司——北京捷科智诚科技有限公司（简称“捷科”），凭借在金融数智化领域的持续深耕、强劲的业务增长及规模化落地能力，再度登榜全球金融科技百强，成为本年度仅12家上榜中国企业中的一员。\nI"
+  },
+  {
+   "title": "捷科中标千万级数字人民币测试项目 助力城商行系统稳健运行",
+   "sentiment": "positive",
+   "severity": "low",
+   "published_at": "2026-05-11",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://stock.10jqka.com.cn/20260511/c676601060.shtml",
+   "evidence": "1、近日，北京捷科智诚科技有限公司成功中标某大型城商行千万级数字人民币系统测试项目。捷科深耕金融测试领域十余年，形成了覆盖“建设+测试+运营支持”的端到端服务能力，并严格遵循相关规范标准，以“业务驱动、数据贯通、质量闭环”为核心理念，打造了系统化的测试解决方案。\n据润和软件（300339）消息，近日，北京捷科智诚科技有限公司成功中标某大型城商行（884251）千万级数字人民币系统测试项目。这标志着"
+  }
+ ],
+ "financials": {
+  "debt_ratio": 35.94,
+  "current_ratio": null,
+  "quick_ratio": null,
+  "net_margin": 6.04,
+  "gross_margin": null,
+  "roe": null,
+  "roa": null,
+  "operating_cashflow": null,
+  "net_profit": 87639000.0,
+  "revenue": null,
+  "total_assets": null,
+  "revenue_yoy": 8.57,
+  "profit_yoy": null,
+  "audit_opinion": null,
+  "report_period": "2025年年报"
+ },
+ "registration": {
+  "credit_code": "91110108688365031X",
+  "legal_person": "马玉峰",
+  "registered_capital": "60000万元",
+  "paid_capital": "60000万元",
+  "established": "2009-04-24",
+  "status": "存续（在营、开业、在册）",
+  "company_type": "有限责任公司（法人独资）",
+  "industry": {
+   "门类": "科学研究和技术服务业",
+   "大类": "科技推广和应用服务业",
+   "中类": "其他科技推广服务业",
+   "小类": "其他科技推广服务业"
+  },
+  "region": "北京市大兴区",
+  "address": "北京市大兴区盛坊路5号院6号楼10层1001-1",
+  "staff_scale": "2000-2999人",
+  "insured_count": "2143",
+  "business_scope": "一般项目：技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；业务培训（不含教育培训、职业技能培训等需取得许可的培训）；计算机系统服务；社会经济咨询服务；软件销售；计算机软硬件及辅助设备零售；通讯设备销售；机械设备销售；货物进出口；技术进出口；进出口代理；人力资源服务（不含职业中介活动、劳务派遣服务）；非居住房地产租赁；机械设备租赁；办公设备租赁服务。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）（不得从事国家和本市产业政策禁止和限制类项目的经营活动。）",
+  "_data_source": "企查查MCP(实时)",
+  "_adapter": "qcc,ifind",
+  "_snapshot_at": "2026-10-17",
+  "_snapshot_sources": "qcc,ifind"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "name": "北京神州绿盟科技有限公司",
+ "important_outsourcing": false,
+ "non_resident": false,
+ "cross_border": false,
+ "legal_events": [],
+ "news": [
+  {
+   "title": "绿盟科技:2025年年度报告",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2026-04-23",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://pilu.tianyancha.com/announcement/fb91a23f82c9a8989a2822e14854b5d6",
+   "evidence": "报告期内，公司实现营业收入254,147.72 万元，同比增长7.78%；归属于上市公司股东的净利润为亏损4,525.26 万元，同比减少亏损87.60%。 主要是因为：公司围绕经营目标，聚焦“3+3+X+Y”价值子行业及价值客户；构建组织型销售体系，前后场协同联动，横纵条线协作配合，执行力显著提升。 报告期内，公司主营业务、核心竞争力均未发生重大不利变化，与网络安全行业整体趋势一致。公司所处网络"
+  },
+  {
+   "title": "绿盟科技集团股份有限公司",
+   "sentiment": "negative",
+   "severity": "medium",
+   "published_at": "2026-08-01",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://m.tianyancha.com/scourt/3414868019-6e50",
+   "evidence": "简介：绿盟科技集团股份有限公司 (曾用名：北京神州绿盟信息安全科技股份有限公司) ，成立于2000年，位于北京市，是一家以从事软件和信息技术服务业为主的企业。 企业注册资本81062.1887万人民币，实缴资本81062.1887万人民币，并已于2020年完成了定向增发。 通过天眼查大数据分析，绿盟科技集团股份有限公司共对外投资了7家企业，参与招投标项目333次；知识产权方面有商标信息278条，专"
+  },
+  {
+   "title": "绿盟科技:2026年半年度报告",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2026-08-26",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://pilu.tianyancha.com/announcement/43caf865f5b85b6fa71f70f7eeea08ae",
+   "evidence": "公司在本报告“第三节管理层讨论与分析”中“十、公司面临的风险和应对措施”部分，详细描述了公司经营中可能存在的风险及应对措施，敬请投资者关注相关内容。公司计划不派发现金红利，不送红股，不以公积金转增股本。 绿盟科技全资子公司 神州绿盟 指 北京神州绿盟科技有限公司，绿盟信息之全资子公司 Nsfocus Technologies Hong Kong Ltd，香港绿盟 指 绿盟科技香港子公司， 绿盟科技"
+  }
+ ],
+ "financials": {
+  "debt_ratio": 43.8755,
+  "current_ratio": null,
+  "quick_ratio": null,
+  "net_margin": -15.8722,
+  "gross_margin": null,
+  "roe": -5.02,
+  "roa": null,
+  "operating_cashflow": 193410000.0,
+  "net_profit": -128973903.42,
+  "revenue": 812580000.0,
+  "total_assets": null,
+  "revenue_yoy": null,
+  "profit_yoy": null,
+  "audit_opinion": null,
+  "report_period": "最新一期(MRQ)"
+ },
+ "registration": {
+  "_adapter": "ifind",
+  "_snapshot_at": "2026-10-17",
+  "_snapshot_sources": "ifind"
+ }
+}

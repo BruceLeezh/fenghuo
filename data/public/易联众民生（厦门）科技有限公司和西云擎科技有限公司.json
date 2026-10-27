@@ -1,0 +1,30 @@
+{
+ "name": "易联众民生（厦门）科技有限公司和西云擎科技有限公司",
+ "important_outsourcing": false,
+ "non_resident": false,
+ "cross_border": false,
+ "legal_events": [],
+ "news": [],
+ "financials": {
+  "debt_ratio": 18.8906,
+  "current_ratio": null,
+  "quick_ratio": null,
+  "net_margin": 14.7607,
+  "gross_margin": null,
+  "roe": 4.36,
+  "roa": null,
+  "operating_cashflow": 38830429.0,
+  "net_profit": 39215955.0,
+  "revenue": 265680000.0,
+  "total_assets": null,
+  "revenue_yoy": null,
+  "profit_yoy": null,
+  "audit_opinion": null,
+  "report_period": "最新一期(MRQ)"
+ },
+ "registration": {
+  "_adapter": "ifind",
+  "_snapshot_at": "2026-10-17",
+  "_snapshot_sources": "ifind"
+ }
+}

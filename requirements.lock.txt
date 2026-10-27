@@ -1,0 +1,25 @@
+# 依赖锁定清单（生成于交付机，Python 3.14 / Windows）
+#
+# 为什么要有这个文件：requirements.txt 用的是 `>=`，意味着"今天装得上、明天可能装不上，
+# 而且不同人装出不同版本"。决赛现场复现、以及行内安全评审要求"构建可复现"，
+# 都需要一份确定的版本号。安装用：
+#     pip install -r requirements.lock.txt
+# requirements.txt 保留为"可接受的最低版本"，供需要跟随上游升级的场景使用。
+
+fastapi==0.141.1
+starlette==1.6.0
+pydantic==2.13.5
+uvicorn==0.53.0
+python-multipart==0.0.32
+openai==3.14.0
+python-docx==1.2.0
+openpyxl==3.1.5
+
+# PDF 解析：PyMuPDF 是 AGPL-3.0 —— 内部自用可以，若要把本系统作为商业产品分发，
+# AGPL 会要求开源衍生作品，此时请改装 pypdf（BSD-3-Clause）：
+#     pip install pypdf
+# 代码里已有 pypdf 兜底路径（security/file_parser.py:_open_pdf），两条路都可用。
+pymupdf==1.28.2
+
+# 可选（仅测试/端到端脚本用，非运行时必需）
+httpx==0.28.1
