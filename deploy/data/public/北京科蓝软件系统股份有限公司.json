@@ -1,0 +1,26 @@
+{
+  "name": "北京科蓝软件系统股份有限公司",
+  "important_outsourcing": true,
+  "non_resident": false,
+  "cross_border": false,
+  "legal_events": [],
+  "news": [],
+  "financials": {
+    "debt_ratio": 76.87,
+    "current_ratio": 1.57,
+    "quick_ratio": 0.99,
+    "net_margin": -66.89,
+    "roe": -64.06,
+    "operating_cashflow": 100552371.38,
+    "net_profit": -395209003.18,
+    "revenue_yoy": -29.88,
+    "report_period": "2025年年报"
+  },
+  "registration": {
+    "legal_person": "王安京",
+    "established": "1999-12-01",
+    "status": "存续",
+    "stock_code": "300663",
+    "market": "SZ"
+  }
+}

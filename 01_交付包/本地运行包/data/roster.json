@@ -1,0 +1,671 @@
+[
+  {
+    "id": "S001",
+    "name": "北京捷科智诚科技有限公司",
+    "category": "运行维护类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2026-08-13",
+    "contract_end": "2028-08-13",
+    "last_dd": "2026-07-27",
+    "last_onsite": "",
+    "business_lines": [
+      "测试服务"
+    ],
+    "group": "北京捷科智诚",
+    "annual_amount": 180,
+    "source": "公开中标"
+  },
+  {
+    "id": "S002",
+    "name": "南京科融数据系统股份有限公司",
+    "category": "开发测试类",
+    "important": true,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2026-08-06",
+    "contract_end": "2028-08-06",
+    "last_dd": "2026-07-13",
+    "last_onsite": "",
+    "business_lines": [
+      "监管报送"
+    ],
+    "group": "南京科融数据",
+    "annual_amount": 210,
+    "source": "公开中标"
+  },
+  {
+    "id": "S003",
+    "name": "信雅达科技股份有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2026-07-31",
+    "contract_end": "2028-07-31",
+    "last_dd": "2026-07-20",
+    "last_onsite": "2026-01-28",
+    "business_lines": [
+      "影像平台",
+      "客服中心"
+    ],
+    "group": "信雅达",
+    "annual_amount": 900,
+    "source": "公开中标"
+  },
+  {
+    "id": "S004",
+    "name": "上海合合信息科技股份有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2026-07-30",
+    "contract_end": "2028-07-30",
+    "last_dd": "2026-07-12",
+    "last_onsite": "",
+    "business_lines": [
+      "数据平台"
+    ],
+    "group": "上海合合信息",
+    "annual_amount": 260,
+    "source": "公开中标"
+  },
+  {
+    "id": "S005",
+    "name": "联通（江西）产业互联网有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2026-06-11",
+    "contract_end": "2028-06-11",
+    "last_dd": "2026-05-17",
+    "last_onsite": "",
+    "business_lines": [
+      "分行特色系统"
+    ],
+    "group": "联通江西",
+    "annual_amount": 45,
+    "source": "公开中标"
+  },
+  {
+    "id": "S006",
+    "name": "福建金科信息技术股份有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2026-06-10",
+    "contract_end": "2028-06-10",
+    "last_dd": "2026-05-29",
+    "last_onsite": "2025-10-09",
+    "business_lines": [
+      "网络运维"
+    ],
+    "group": "福建金科",
+    "annual_amount": 150,
+    "source": "公开中标"
+  },
+  {
+    "id": "S007",
+    "name": "北京领雁科技股份有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2026-06-10",
+    "contract_end": "2028-06-10",
+    "last_dd": "2026-05-22",
+    "last_onsite": "",
+    "business_lines": [
+      "办公协同"
+    ],
+    "group": "北京领雁",
+    "annual_amount": 130,
+    "source": "公开中标"
+  },
+  {
+    "id": "S008",
+    "name": "上海泽众软件科技有限公司",
+    "category": "运行维护类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2026-06-08",
+    "contract_end": "2028-06-08",
+    "last_dd": "2026-05-13",
+    "last_onsite": "",
+    "business_lines": [
+      "测试服务"
+    ],
+    "group": "上海泽众",
+    "annual_amount": 120,
+    "source": "公开中标"
+  },
+  {
+    "id": "S009",
+    "name": "北京中亦安图科技股份有限公司",
+    "category": "开发测试类",
+    "important": true,
+    "non_resident": false,
+    "cross_border": false,
+    "contract_start": "2026-04-21",
+    "contract_end": "2029-04-21",
+    "last_dd": "2026-04-08",
+    "last_onsite": "",
+    "business_lines": [
+      "数据库"
+    ],
+    "group": "北京中亦安图",
+    "annual_amount": 850,
+    "source": "公开中标"
+  },
+  {
+    "id": "S010",
+    "name": "武汉本物科技股份有限公司",
+    "category": "运行维护类",
+    "important": true,
+    "non_resident": false,
+    "cross_border": false,
+    "contract_start": "2026-01-19",
+    "contract_end": "2028-01-19",
+    "last_dd": "2026-08-07",
+    "last_onsite": "",
+    "business_lines": [
+      "数据中心运维"
+    ],
+    "group": "武汉本物",
+    "annual_amount": 680,
+    "source": "公开中标"
+  },
+  {
+    "id": "S011",
+    "name": "江西倍康信息技术有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2026-01-19",
+    "contract_end": "2028-01-19",
+    "last_dd": "2026-08-07",
+    "last_onsite": "",
+    "business_lines": [
+      "分行特色系统"
+    ],
+    "group": "江西倍康",
+    "annual_amount": 35,
+    "source": "公开中标"
+  },
+  {
+    "id": "S012",
+    "name": "南昌江咨嵘航数科信息发展有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-12-25",
+    "contract_end": "2027-12-25",
+    "last_dd": "2026-07-13",
+    "last_onsite": "2026-04-25",
+    "business_lines": [
+      "分行特色系统"
+    ],
+    "group": "南昌江咨嵘航",
+    "annual_amount": 60,
+    "source": "公开中标"
+  },
+  {
+    "id": "S013",
+    "name": "杭州新中大科技股份有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-12-25",
+    "contract_end": "2027-12-25",
+    "last_dd": "2026-07-13",
+    "last_onsite": "",
+    "business_lines": [
+      "分行特色系统"
+    ],
+    "group": "杭州新中大",
+    "annual_amount": 27,
+    "source": "公开中标"
+  },
+  {
+    "id": "S014",
+    "name": "江西诚韬科技有限公司",
+    "category": "运行维护类",
+    "important": true,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-11-06",
+    "contract_end": "2027-11-06",
+    "last_dd": "2026-05-25",
+    "last_onsite": "",
+    "business_lines": [
+      "信息安全"
+    ],
+    "group": "江西诚韬",
+    "annual_amount": 95,
+    "source": "公开中标"
+  },
+  {
+    "id": "S015",
+    "name": "无锡慕果信息技术有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-10-31",
+    "contract_end": "2026-10-31",
+    "last_dd": "2025-08-17",
+    "last_onsite": "2026-01-04",
+    "business_lines": [
+      "开发工具"
+    ],
+    "group": "无锡慕果",
+    "annual_amount": 45,
+    "source": "公开中标"
+  },
+  {
+    "id": "S016",
+    "name": "上海软购信息技术有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-10-31",
+    "contract_end": "2026-10-31",
+    "last_dd": "2025-08-06",
+    "last_onsite": "",
+    "business_lines": [
+      "开发工具"
+    ],
+    "group": "上海软购",
+    "annual_amount": 38,
+    "source": "公开中标"
+  },
+  {
+    "id": "S017",
+    "name": "上海卡煜科技有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-10-31",
+    "contract_end": "2026-10-31",
+    "last_dd": "2025-07-26",
+    "last_onsite": "",
+    "business_lines": [
+      "开发工具"
+    ],
+    "group": "上海卡煜",
+    "annual_amount": 52,
+    "source": "公开中标"
+  },
+  {
+    "id": "S018",
+    "name": "深圳市贝特思科技有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-10-31",
+    "contract_end": "2026-10-31",
+    "last_dd": "2025-07-15",
+    "last_onsite": "2025-09-15",
+    "business_lines": [
+      "办公协同"
+    ],
+    "group": "深圳贝特思",
+    "annual_amount": 33,
+    "source": "公开中标"
+  },
+  {
+    "id": "S019",
+    "name": "江西锦酬信息技术有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-10-11",
+    "contract_end": "2026-10-11",
+    "last_dd": "2026-04-29",
+    "last_onsite": "",
+    "business_lines": [
+      "办公协同"
+    ],
+    "group": "江西锦酬",
+    "annual_amount": 42,
+    "source": "公开中标"
+  },
+  {
+    "id": "S020",
+    "name": "北京神州绿盟科技有限公司",
+    "category": "开发测试类",
+    "important": true,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-09-24",
+    "contract_end": "2027-09-24",
+    "last_dd": "2026-04-12",
+    "last_onsite": "",
+    "business_lines": [
+      "信息安全"
+    ],
+    "group": "绿盟科技",
+    "annual_amount": 320,
+    "source": "公开中标"
+  },
+  {
+    "id": "S021",
+    "name": "江西省天网大数据有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-09-24",
+    "contract_end": "2027-09-24",
+    "last_dd": "2026-04-12",
+    "last_onsite": "",
+    "business_lines": [
+      "分行特色系统"
+    ],
+    "group": "江西天网大数据",
+    "annual_amount": 20,
+    "source": "公开中标"
+  },
+  {
+    "id": "S022",
+    "name": "北京超图软件股份有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-09-22",
+    "contract_end": "2027-09-22",
+    "last_dd": "2026-04-10",
+    "last_onsite": "",
+    "business_lines": [
+      "分行特色系统"
+    ],
+    "group": "北京超图",
+    "annual_amount": 30,
+    "source": "公开中标"
+  },
+  {
+    "id": "S023",
+    "name": "北京安泰伟奥信息技术有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-09-01",
+    "contract_end": "2027-09-01",
+    "last_dd": "2026-03-20",
+    "last_onsite": "",
+    "business_lines": [
+      "分行特色系统"
+    ],
+    "group": "北京安泰伟奥",
+    "annual_amount": 32,
+    "source": "公开中标"
+  },
+  {
+    "id": "S024",
+    "name": "捷通智慧科技股份有限公司",
+    "category": "运行维护类",
+    "important": true,
+    "non_resident": false,
+    "cross_border": false,
+    "contract_start": "2025-08-28",
+    "contract_end": "2028-08-28",
+    "last_dd": "2026-03-16",
+    "last_onsite": "",
+    "business_lines": [
+      "数据中心运维"
+    ],
+    "group": "捷通智慧",
+    "annual_amount": 210,
+    "source": "公开中标"
+  },
+  {
+    "id": "S025",
+    "name": "海穗信息技术（上海）有限公司",
+    "category": "开发测试类",
+    "important": true,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-08-27",
+    "contract_end": "2027-08-27",
+    "last_dd": "2026-03-15",
+    "last_onsite": "",
+    "business_lines": [
+      "监管报送"
+    ],
+    "group": "海穗信息",
+    "annual_amount": 190,
+    "source": "公开中标"
+  },
+  {
+    "id": "S026",
+    "name": "恒生电子股份有限公司",
+    "category": "开发测试类",
+    "important": true,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-08-25",
+    "contract_end": "2028-08-25",
+    "last_dd": "2026-03-13",
+    "last_onsite": "",
+    "business_lines": [
+      "核心账务系统",
+      "理财系统",
+      "票据系统"
+    ],
+    "group": "恒生电子",
+    "annual_amount": 5600,
+    "source": "公开中标"
+  },
+  {
+    "id": "S027",
+    "name": "武汉通威电子有限公司",
+    "category": "运行维护类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-08-22",
+    "contract_end": "2027-08-22",
+    "last_dd": "2026-03-10",
+    "last_onsite": "2025-12-11",
+    "business_lines": [
+      "网络运维"
+    ],
+    "group": "武汉通威",
+    "annual_amount": 160,
+    "source": "公开中标"
+  },
+  {
+    "id": "S028",
+    "name": "易联众民生（厦门）科技有限公司和西云擎科技有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-08-19",
+    "contract_end": "2027-08-19",
+    "last_dd": "2026-03-07",
+    "last_onsite": "",
+    "business_lines": [
+      "卡片与影像"
+    ],
+    "group": "易联众·西云擎",
+    "annual_amount": 25,
+    "source": "公开中标"
+  },
+  {
+    "id": "S029",
+    "name": "中互金认证有限公司",
+    "category": "运行维护类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-08-15",
+    "contract_end": "2026-08-15",
+    "last_dd": "2025-08-03",
+    "last_onsite": "",
+    "business_lines": [
+      "测试服务"
+    ],
+    "group": "中互金认证",
+    "annual_amount": 25,
+    "source": "公开中标"
+  },
+  {
+    "id": "S030",
+    "name": "江西瑞智信息有限公司",
+    "category": "开发测试类",
+    "important": true,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-08-12",
+    "contract_end": "2027-08-12",
+    "last_dd": "2026-02-28",
+    "last_onsite": "2025-08-22",
+    "business_lines": [
+      "信息安全"
+    ],
+    "group": "江西瑞智",
+    "annual_amount": 140,
+    "source": "公开中标"
+  },
+  {
+    "id": "S031",
+    "name": "江西神舟信息安全评估中心有限公司",
+    "category": "运行维护类",
+    "important": true,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-08-12",
+    "contract_end": "2027-08-12",
+    "last_dd": "2026-02-28",
+    "last_onsite": "",
+    "business_lines": [
+      "信息安全"
+    ],
+    "group": "江西神舟评估",
+    "annual_amount": 88,
+    "source": "公开中标"
+  },
+  {
+    "id": "S032",
+    "name": "上海宏时数据系统有限公司",
+    "category": "开发测试类",
+    "important": true,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-08-07",
+    "contract_end": "2027-08-07",
+    "last_dd": "2026-02-23",
+    "last_onsite": "",
+    "business_lines": [
+      "数据中心运维"
+    ],
+    "group": "上海宏时数据",
+    "annual_amount": 190,
+    "source": "公开中标"
+  },
+  {
+    "id": "S033",
+    "name": "北京中科江南信息技术股份有限公司",
+    "category": "开发测试类",
+    "important": true,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-03-25",
+    "contract_end": "2027-03-25",
+    "last_dd": "2025-10-11",
+    "last_onsite": "2025-05-03",
+    "business_lines": [
+      "支付系统"
+    ],
+    "group": "中科江南",
+    "annual_amount": 195,
+    "source": "公开中标"
+  },
+  {
+    "id": "S034",
+    "name": "深圳市共济科技股份有限公司",
+    "category": "开发测试类",
+    "important": true,
+    "non_resident": false,
+    "cross_border": false,
+    "contract_start": "2025-02-28",
+    "contract_end": "2027-02-28",
+    "last_dd": "2025-09-16",
+    "last_onsite": "",
+    "business_lines": [
+      "数据中心运维"
+    ],
+    "group": "深圳共济",
+    "annual_amount": 175,
+    "source": "公开中标"
+  },
+  {
+    "id": "S035",
+    "name": "上海中软华腾软件系统有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-02-24",
+    "contract_end": "2027-02-24",
+    "last_dd": "2025-09-12",
+    "last_onsite": "",
+    "business_lines": [
+      "卡片与影像"
+    ],
+    "group": "上海中软华腾",
+    "annual_amount": 160,
+    "source": "公开中标"
+  },
+  {
+    "id": "S036",
+    "name": "浙江邦盛科技股份有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-01-24",
+    "contract_end": "2027-01-24",
+    "last_dd": "2025-08-12",
+    "last_onsite": "2026-03-08",
+    "business_lines": [
+      "信贷系统"
+    ],
+    "group": "浙江邦盛",
+    "annual_amount": 140,
+    "source": "公开中标"
+  },
+  {
+    "id": "S037",
+    "name": "中数通信息有限公司",
+    "category": "开发测试类",
+    "important": false,
+    "non_resident": true,
+    "cross_border": false,
+    "contract_start": "2025-01-16",
+    "contract_end": "2027-01-16",
+    "last_dd": "2025-08-04",
+    "last_onsite": "",
+    "business_lines": [
+      "分行特色系统"
+    ],
+    "group": "中数通信息",
+    "annual_amount": 150,
+    "source": "公开中标"
+  }
+]

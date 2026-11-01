@@ -1,0 +1,46 @@
+{
+ "name": "上海泽众软件科技有限公司",
+ "important_outsourcing": false,
+ "non_resident": false,
+ "cross_border": false,
+ "legal_events": [],
+ "news": [
+  {
+   "title": "泽众软件科技（苏州）有限公司",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2026-07-17",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://m.tianyancha.com/company/3409743713",
+   "evidence": "简介：泽众软件科技 (苏州) 有限公司，成立于2020年，位于江苏省苏州市，是一家以从事软件和信息技术服务业为主的企业。企业注册资本1000万人民币，实缴资本300万人民币。 通过天眼查大数据分析，泽众软件科技 (苏州) 有限公司著作权信息36条；此外企业还拥有行政许可4个。 更多。 "
+  }
+ ],
+ "financials": {
+  "debt_ratio": 53.4524,
+  "current_ratio": null,
+  "quick_ratio": null,
+  "net_margin": 1.3648,
+  "gross_margin": null,
+  "roe": 6.68,
+  "roa": null,
+  "operating_cashflow": -593667.59,
+  "net_profit": 1801065.9999999998,
+  "revenue": 131960000.00000001,
+  "total_assets": null,
+  "revenue_yoy": null,
+  "profit_yoy": null,
+  "audit_opinion": null,
+  "report_period": "最新一期(MRQ)"
+ },
+ "registration": {
+  "_data_source": "企查查MCP(实时)",
+  "_partial": true,
+  "_fetch_errors": [
+   "get_shareholder_info: QCCError: get_shareholder_info 调用失败: {'code': 300008, 'message': '当前积分余额不足，无法完成本次调用。企查查MCP服务现已支持在线充值，完成充值后即可立即继续使用。请提示用户前往 https://agent.qcc.com/ 充值。', 'data': {'service': 'qichacha_mcp_service', 'error_type': ",
+   "get_company_risk_scan: 调用失败"
+  ],
+  "_adapter": "ifind,qcc",
+  "_snapshot_at": "2026-10-17",
+  "_snapshot_sources": "ifind,qcc"
+ }
+}

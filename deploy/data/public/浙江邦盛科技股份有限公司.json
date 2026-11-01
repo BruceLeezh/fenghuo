@@ -1,0 +1,40 @@
+{
+ "name": "浙江邦盛科技股份有限公司",
+ "important_outsourcing": false,
+ "non_resident": false,
+ "cross_border": false,
+ "legal_events": [],
+ "news": [
+  {
+   "title": "浙大教授带队，浙江独角兽邦盛科技年入2.7亿元重启IPO辅导",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2025-10-30",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://www.lejucaijing.com/news-7388878913248360173.html",
+   "evidence": "10月28日，浙江邦盛科技股份有限公司（以下简称“邦盛科技”）在浙江证监局重启IPO辅导，拟A股上市，辅导机构为银河证券、湘财证券。 邦盛科技曾于2023年6月向上海证券交易所报送首次公开发行股票并在科创板上市申请文件，于2023年12月撤回首次公开发行股票并在科创板上市申请文件。 邦盛科技成立于2010年，是一家大数据基础软件开发及相关应用解决方案提供商，专注于大数据实时智能平台的技术研究，主要"
+  }
+ ],
+ "financials": {
+  "debt_ratio": 21.6959,
+  "current_ratio": null,
+  "quick_ratio": null,
+  "net_margin": -29.8408,
+  "gross_margin": null,
+  "roe": -17.5,
+  "roa": null,
+  "operating_cashflow": -50356078.17,
+  "net_profit": -80577246.87,
+  "revenue": 270020000.0,
+  "total_assets": null,
+  "revenue_yoy": null,
+  "profit_yoy": null,
+  "audit_opinion": null,
+  "report_period": "最新一期(MRQ)"
+ },
+ "registration": {
+  "_adapter": "ifind",
+  "_snapshot_at": "2026-10-17",
+  "_snapshot_sources": "ifind"
+ }
+}

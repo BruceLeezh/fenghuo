@@ -1,0 +1,40 @@
+{
+ "name": "深圳市贝特思科技有限公司",
+ "important_outsourcing": false,
+ "non_resident": false,
+ "cross_border": false,
+ "legal_events": [],
+ "news": [
+  {
+   "title": "深圳市贝特思科技有限公司",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2025-10-29",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3%E5%B8%82%E8%B4%9D%E7%89%B9%E6%80%9D%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/1189365",
+   "evidence": "公司沿革与资质。企业前身为2006年注册的有限责任公司，2022年9月取得行政许可变更住所及法定代表人。持有4类行政许可资质，包括网络安全服务认证及进出口业务许可。2024年11月完成章程备案及法定代表人变更记录。 业务范围与技术解决方案。主营业务包含网络技术服务、软件开发及信息安全解决方案，提供超融合灾备系统集成服务。核心技术方案涵盖桌面云平台运维、文档转换系统及PLM系统实施。 2025年签约"
+  }
+ ],
+ "financials": {
+  "debt_ratio": 27.1295,
+  "current_ratio": null,
+  "quick_ratio": null,
+  "net_margin": 17.4987,
+  "gross_margin": null,
+  "roe": 19.1,
+  "roa": null,
+  "operating_cashflow": 126699999.99999999,
+  "net_profit": 109700000.0,
+  "revenue": 626930000.0,
+  "total_assets": null,
+  "revenue_yoy": null,
+  "profit_yoy": null,
+  "audit_opinion": null,
+  "report_period": "最新一期(MRQ)"
+ },
+ "registration": {
+  "_adapter": "ifind",
+  "_snapshot_at": "2026-10-17",
+  "_snapshot_sources": "ifind"
+ }
+}

@@ -1,0 +1,51 @@
+# ── 凭据（绝不可入库 / 不可打进公开压缩包）──────────────────────────
+.env
+app/.env
+**/.env
+deploy/.env
+# GitHub 个人访问令牌（真实 ghp_ 令牌在本文件同目录）
+.github_token
+# 配置中心会把界面填入的凭据持久化到该文件（含企查查/iFinD/Wind 密钥）
+app/data/source_config.json
+deploy/data/source_config.json
+# 统一缓存可能间接含检索到的企业信息
+app/data/qcc_cache.json
+data/qcc_cache.json
+**/qcc_cache.json
+
+# ── 运行时数据（本机运行产生，不应分发）────────────────────────────
+app/data/workorders.json
+app/data/roster.json
+app/data/service_levels.json
+app/data/special_records/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ── 前端依赖 ─────────────────────────────────────────────────────
+app/node_modules/
+node_modules/
+package-lock.json
+
+# ── 非代码归档区（含个人信息/会话日志/大体积工作产物，不入库）──────
+00_赛务资料/
+02_工作区/
+06_会话复原/
+99_临时/
+_archive/
+图片/
+
+# ── 临时/中间产物 ────────────────────────────────────────────────
+_*
+~$*
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+_shots/
+*.log
+
+# WorkBuddy 工具状态（非项目内容）
+.workbuddy/
+.wbapp_*.genie

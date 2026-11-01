@@ -1,0 +1,26 @@
+{
+  "name": "神州数码信息服务集团股份有限公司",
+  "important_outsourcing": true,
+  "non_resident": false,
+  "cross_border": false,
+  "legal_events": [],
+  "news": [],
+  "financials": {
+    "debt_ratio": 53.87,
+    "current_ratio": 1.54,
+    "quick_ratio": 1.16,
+    "net_margin": 0.36,
+    "roe": 1.0,
+    "operating_cashflow": -38842539.7,
+    "net_profit": 46899054.53,
+    "revenue_yoy": 31.59,
+    "report_period": "2025年年报"
+  },
+  "registration": {
+    "legal_person": "徐启昌",
+    "established": "1996-11-18",
+    "status": "存续",
+    "stock_code": "000555",
+    "market": "SZ"
+  }
+}

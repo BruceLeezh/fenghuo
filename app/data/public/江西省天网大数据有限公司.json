@@ -1,0 +1,40 @@
+{
+ "name": "江西省天网大数据有限公司",
+ "important_outsourcing": false,
+ "non_resident": false,
+ "cross_border": false,
+ "legal_events": [],
+ "news": [
+  {
+   "title": "江西省天网大数据有限公司",
+   "sentiment": "neutral",
+   "severity": "low",
+   "published_at": "2026-10-17",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://www.kuaicha356.com/outer/company/Q11F353865",
+   "evidence": "法人代表人是陈会荣，成立于2021-03-05，注册资本1000.0000万人民币，注册地址江西省宜春市袁州区大塘路11号景烁楼6层601室，主营业务一般项目:互联网数据服务,教学用模型及教具制造,信息系统集成服务,计算机系统服务,软件开发,技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广,承接总公司工程建设业务,园林绿化工程施工,对外承包工程,普通机械设备安装服务,轨道交通专用设备、关"
+  }
+ ],
+ "financials": {
+  "debt_ratio": 25.3684,
+  "current_ratio": null,
+  "quick_ratio": null,
+  "net_margin": -23.9679,
+  "gross_margin": null,
+  "roe": -8.55,
+  "roa": null,
+  "operating_cashflow": -673298.93,
+  "net_profit": -2160619.17,
+  "revenue": 9014632.0,
+  "total_assets": null,
+  "revenue_yoy": null,
+  "profit_yoy": null,
+  "audit_opinion": null,
+  "report_period": "最新一期(MRQ)"
+ },
+ "registration": {
+  "_adapter": "ifind",
+  "_snapshot_at": "2026-10-17",
+  "_snapshot_sources": "ifind"
+ }
+}

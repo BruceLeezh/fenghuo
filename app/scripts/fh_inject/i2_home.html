@@ -1,0 +1,254 @@
+<!-- ===== 烽火首页改版 · I2 注入（首页层 + 背景光斑层）=====
+     依据：《烽火-首页改版设计方案V1》§3 / §4（文案为 §4.6 逐字稿）
+     规则：新增标签一律不带低代码平台的节点标记属性；内联拼接复用真源 esc()
+     （本段为纯静态文案 + 固定路由 token，无变量拼接）。 -->
+<div class="fh-bg" aria-hidden="true">
+  <span class="fh-orb fh-orb-1"></span>
+  <span class="fh-orb fh-orb-2"></span>
+  <span class="fh-orb fh-orb-3"></span>
+  <span class="fh-sweep"></span>
+</div>
+
+<div id="fhHome" hidden>
+  <!-- 图标精灵：统一描边内联 SVG（禁止 emoji） -->
+  <svg class="fh-sr-only" aria-hidden="true" focusable="false" width="0" height="0">
+    <symbol id="i-logo" viewBox="0 0 24 24">
+      <path d="M12 2.6 4.4 5.6v6c0 4.5 3.2 8.1 7.6 9.8 4.4-1.7 7.6-5.3 7.6-9.8v-6z"/>
+      <path d="M12 8.4c.9 1.3.4 2.2-.3 3.1-.6.8-1 1.5-.6 2.6.9-.3 1.4-.9 1.8-1.6"/>
+    </symbol>
+    <symbol id="i-radar" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="8.2"/><circle cx="12" cy="12" r="3.4"/><path d="M12 12l5.8-4.1"/>
+      <path d="M12 3.8v1.5M20.2 12h-1.5M12 20.2v-1.5M3.8 12h1.5"/>
+    </symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24">
+      <rect x="3.6" y="3.6" width="7" height="7" rx="1.6"/><rect x="13.4" y="3.6" width="7" height="7" rx="1.6"/>
+      <rect x="3.6" y="13.4" width="7" height="7" rx="1.6"/><rect x="13.4" y="13.4" width="7" height="7" rx="1.6"/>
+    </symbol>
+    <symbol id="i-audit" viewBox="0 0 24 24">
+      <path d="M12 2.6 4.4 5.6v6c0 4.5 3.2 8.1 7.6 9.8 4.4-1.7 7.6-5.3 7.6-9.8v-6z"/>
+      <path d="M8.8 11.8l2.2 2.2 4.2-4.4"/>
+    </symbol>
+    <symbol id="i-search" viewBox="0 0 24 24">
+      <circle cx="11" cy="11" r="6.6"/><path d="M16 16l4.2 4.2"/>
+    </symbol>
+    <symbol id="i-filelock" viewBox="0 0 24 24">
+      <path d="M13.2 3.4H7.4a2 2 0 0 0-2 2v13.2a2 2 0 0 0 2 2h9.2a2 2 0 0 0 2-2V8.8z"/>
+      <path d="M13.2 3.4v5.4h5.4"/>
+      <rect x="9.6" y="13.4" width="4.8" height="4" rx="1"/>
+      <path d="M10.6 13.4v-1.1a1.4 1.4 0 0 1 2.8 0v1.1"/>
+    </symbol>
+    <symbol id="i-ledger" viewBox="0 0 24 24">
+      <path d="M5.4 4.4h10.2a2 2 0 0 1 2 2v13.2H7.4a2 2 0 0 1-2-2z"/>
+      <path d="M17.6 8.4h1.5a1 1 0 0 1 1 1v8.2a2 2 0 0 1-2 2h-.5"/>
+      <path d="M8.6 8.6h6M8.6 12h6M8.6 15.4h3.4"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24">
+      <path d="M4.6 12h14"/><path d="M13 6.4l5.6 5.6-5.6 5.6"/>
+    </symbol>
+    <symbol id="i-send" viewBox="0 0 24 24">
+      <path d="M20.4 3.6 3.6 10.2l6 2.4 2.4 6z"/><path d="M20.4 3.6 9.6 12.6"/>
+    </symbol>
+  </svg>
+
+  <!-- 第 0 屏 · 顶栏 -->
+  <header class="fh-header">
+    <div class="fh-wrap fh-header-in">
+      <a class="fh-brand" href="#/home" aria-label="烽火 · 信息科技外包风险智能预警系统">
+        <svg class="fh-ic" aria-hidden="true"><use href="#i-logo"/></svg>
+        <span>
+          <b>烽火</b>
+          <i>信息科技外包风险智能预警系统</i>
+        </span>
+      </a>
+      <nav class="fh-nav" aria-label="首页分区">
+        <a href="#/home" data-fh-scroll="capability">能力</a>
+        <a href="#/home" data-fh-scroll="gateway">入口</a>
+        <a href="#/home" data-fh-scroll="basis">口径</a>
+      </nav>
+      <div class="fh-head-right">
+        <span class="fh-status"><span class="fh-dot" aria-hidden="true"></span>数据源状态 · 就绪</span>
+        <a class="fh-pill" href="#/scan">进入产品<svg class="fh-ic fh-ic-16" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 第 1 屏 · HERO -->
+    <section class="fh-hero" aria-labelledby="fhHeroTitle">
+      <div class="fh-wrap fh-hero-grid">
+        <div class="fh-hero-l">
+          <p class="fh-kick">烽火 · 信息科技外包风险智能预警系统</p>
+          <h1 class="fh-h1" id="fhHeroTitle">
+            供应商的单点风险，当场扫清；<br>
+            外包的周期风险，持续盯住；<br>
+            每一次扣分，都能追溯到<em>《办法》条款</em>。
+          </h1>
+          <p class="fh-sub">依据《银行保险机构信息科技外包风险监管办法》——单点扫描 + 周期监控，<br>六维加权评分，扣分可溯源、处置可留痕、报送可验收。</p>
+          <ul class="fh-chain" aria-label="处理链路">
+            <li>多源采集</li><li class="fh-sep" aria-hidden="true">→</li>
+            <li>交叉校验</li><li class="fh-sep" aria-hidden="true">→</li>
+            <li>六维加权</li><li class="fh-sep" aria-hidden="true">→</li>
+            <li>分级处置</li><li class="fh-sep" aria-hidden="true">→</li>
+            <li>留痕报送</li>
+          </ul>
+          <div class="fh-ctas">
+            <a class="fh-btn fh-btn-primary" href="#/scan">开始风险扫描<svg class="fh-ic fh-ic-20" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="fh-btn fh-btn-ghost" href="#/monitor">进入周期监控<svg class="fh-ic fh-ic-20" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+
+        <!-- 机制卡：真实产品机制示意（非营销数字） -->
+        <aside class="fh-mech" aria-label="评分机制">
+          <span class="fh-mech-tag">评分机制</span>
+          <div class="fh-mech-viz">
+            <svg viewBox="0 0 120 120" role="img" aria-label="六维AHP加权结构示意：六个顶点向中心汇聚，不表示具体数值">
+              <polygon class="fh-hex-out" points="60,12 101.6,36 101.6,84 60,108 18.4,84 18.4,36"/>
+              <path class="fh-hex-spoke" d="M60 12V60M101.6 36 60 60M101.6 84 60 60M60 108V60M18.4 84 60 60M18.4 36 60 60"/>
+              <circle class="fh-hex-ring" cx="60" cy="60" r="21"/>
+              <circle class="fh-hex-dot" cx="60" cy="12" r="2.6"/>
+              <circle class="fh-hex-dot" cx="101.6" cy="36" r="2.6"/>
+              <circle class="fh-hex-dot" cx="101.6" cy="84" r="2.6"/>
+              <circle class="fh-hex-dot" cx="60" cy="108" r="2.6"/>
+              <circle class="fh-hex-dot" cx="18.4" cy="84" r="2.6"/>
+              <circle class="fh-hex-dot" cx="18.4" cy="36" r="2.6"/>
+            </svg>
+            <b>六维AHP加权</b>
+          </div>
+          <ul class="fh-mech-chain" aria-label="扣分溯源链">
+            <li><span class="fh-chip">扣分点</span><span class="fh-arw" aria-hidden="true"><svg class="fh-ic fh-ic-16"><use href="#i-arrow"/></svg></span></li>
+            <li><span class="fh-chip">维度</span><span class="fh-arw" aria-hidden="true"><svg class="fh-ic fh-ic-16"><use href="#i-arrow"/></svg></span></li>
+            <li><span class="fh-chip">权重</span><span class="fh-arw" aria-hidden="true"><svg class="fh-ic fh-ic-16"><use href="#i-arrow"/></svg></span></li>
+            <li><span class="fh-chip">监管条款</span></li>
+          </ul>
+          <div class="fh-mech-foot">
+            <span>六维 AHP 加权 · 红线一票否决</span>
+            <span>一致性比率 CR &lt; <b>0.1</b> · 通过一致性检验</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 第 2 屏 · 浅色大卡（能力 + 入口矩阵） -->
+    <section class="fh-sec" id="capability" aria-labelledby="fhCapTitle">
+      <div class="fh-wrap">
+        <div class="fh-panel">
+          <h2 class="fh-sec-title fh-rv" id="fhCapTitle"><i aria-hidden="true"></i>烽火的三个能力</h2>
+          <p class="fh-sec-sub fh-rv">先看清一个供应商，再盯住全部供应商，每一步都留下可核验的记录。</p>
+
+          <div class="fh-caps">
+            <article class="fh-cap fh-rv">
+              <span class="fh-ci" aria-hidden="true"><svg class="fh-ic fh-ic-24"><use href="#i-radar"/></svg></span>
+              <h3>单点风险扫描</h3>
+              <p>输入公开公司名或上传涉密文件，多源聚合、交叉验证，六维加权当场出分；涉密文件本地解析，数据不出内网。</p>
+            </article>
+            <article class="fh-cap fh-rv">
+              <span class="fh-ci" aria-hidden="true"><svg class="fh-ic fh-ic-24"><use href="#i-grid"/></svg></span>
+              <h3>周期风险监控</h3>
+              <p>九个监控模块，覆盖组合风险、集中度、服务水平、合规日历与处置工单，把一次扫描变成持续盯防。</p>
+            </article>
+            <article class="fh-cap fh-rv">
+              <span class="fh-ci" aria-hidden="true"><svg class="fh-ic fh-ic-24"><use href="#i-audit"/></svg></span>
+              <h3>可溯可审</h3>
+              <p>AHP 定权、扣分溯源至监管条款、红线一票否决；结论留痕，可直接支撑监管报送与内部审计。</p>
+            </article>
+          </div>
+
+          <hr class="fh-div">
+
+          <h2 class="fh-sec-title fh-rv" id="gateway"><i aria-hidden="true"></i>从这里进入</h2>
+          <p class="fh-sec-sub fh-rv">两类角色，两条路径——单点扫一家，或持续盯全行。</p>
+
+          <div class="fh-group">
+            <span class="fh-gl">组 A · 单点风险扫描</span>
+            <span class="fh-gd">外勤作业 · 当天要办的活</span>
+            <span class="fh-ln" aria-hidden="true"></span>
+          </div>
+          <div class="fh-gates-a">
+            <a class="fh-gate fh-rv" href="#/scan">
+              <span class="fh-gi" aria-hidden="true"><svg class="fh-ic fh-ic-24"><use href="#i-search"/></svg></span>
+              <span class="fh-gt"><b>公开公司查询</b><span>多源聚合 · 云端分析</span></span>
+              <span class="fh-go" aria-hidden="true"><svg class="fh-ic fh-ic-20"><use href="#i-arrow"/></svg></span>
+            </a>
+            <a class="fh-gate fh-rv" href="#/scan">
+              <span class="fh-gi" aria-hidden="true"><svg class="fh-ic fh-ic-24"><use href="#i-filelock"/></svg></span>
+              <span class="fh-gt"><b>涉密文件分析</b><span>本地解析 · 不出内网</span></span>
+              <span class="fh-go" aria-hidden="true"><svg class="fh-ic fh-ic-20"><use href="#i-arrow"/></svg></span>
+            </a>
+          </div>
+
+          <div class="fh-group">
+            <span class="fh-gl">组 B · 周期风险监控</span>
+            <span class="fh-gd">全行态势 · 每周每月要看</span>
+            <span class="fh-ln" aria-hidden="true"></span>
+          </div>
+          <div class="fh-gates-b">
+            <a class="fh-gate fh-rv" href="#/monitor/board">
+              <span class="fh-gi" aria-hidden="true"><svg class="fh-ic fh-ic-24"><use href="#i-grid"/></svg></span>
+              <span class="fh-gt"><b>风险态势</b><span>组合风险看板 · 集中度风险 · 服务水平指标</span></span>
+              <span class="fh-go" aria-hidden="true"><svg class="fh-ic fh-ic-20"><use href="#i-arrow"/></svg></span>
+            </a>
+            <a class="fh-gate fh-rv" href="#/monitor/roster">
+              <span class="fh-gi" aria-hidden="true"><svg class="fh-ic fh-ic-24"><use href="#i-ledger"/></svg></span>
+              <span class="fh-gt"><b>台账与处置</b><span>供应商台账 · 专属场景评价 · 处置工单 · 合规日历</span></span>
+              <span class="fh-go" aria-hidden="true"><svg class="fh-ic fh-ic-20"><use href="#i-arrow"/></svg></span>
+            </a>
+            <a class="fh-gate fh-rv" href="#/monitor/simulator">
+              <span class="fh-gi" aria-hidden="true"><svg class="fh-ic fh-ic-24"><use href="#i-send"/></svg></span>
+              <span class="fh-gt"><b>决策与报送</b><span>处置策略推演沙盘 · 监管报送</span></span>
+              <span class="fh-go" aria-hidden="true"><svg class="fh-ic fh-ic-20"><use href="#i-arrow"/></svg></span>
+            </a>
+          </div>
+          <a class="fh-all" href="#/monitor/board">查看全部 9 个监控模块<svg class="fh-ic fh-ic-16" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 第 3 屏 · 方法与口径收口 -->
+  <footer class="fh-spec" id="basis">
+    <div class="fh-wrap">
+      <div class="fh-spec-grid">
+        <div>
+          <div class="fh-spec-h">四层链路</div>
+          <div class="fh-spec-flow">
+            <span class="fh-chip">采集 · 多源接入</span><span class="fh-arw" aria-hidden="true"><svg class="fh-ic fh-ic-16"><use href="#i-arrow"/></svg></span>
+            <span class="fh-chip">校验 · 交叉验证</span><span class="fh-arw" aria-hidden="true"><svg class="fh-ic fh-ic-16"><use href="#i-arrow"/></svg></span>
+            <span class="fh-chip">分析 · 六维加权</span><span class="fh-arw" aria-hidden="true"><svg class="fh-ic fh-ic-16"><use href="#i-arrow"/></svg></span>
+            <span class="fh-chip">处置 · 分级处置</span>
+          </div>
+          <div class="fh-spec-h" style="margin-top:var(--fh-sp-6)">处置四档</div>
+          <div class="fh-lvrow">
+            <span><i style="background:var(--fh-lv-normal)"></i>整改</span>
+            <span><i style="background:var(--fh-lv-watch)"></i>约谈</span>
+            <span><i style="background:var(--fh-lv-high)"></i>限制</span>
+            <span><i style="background:var(--fh-lv-veto)"></i>退出</span>
+          </div>
+        </div>
+        <div>
+          <div class="fh-spec-h">数据源</div>
+          <ul class="fh-spec-list">
+            <li>企查查实时</li>
+            <li>本地预采集库</li>
+            <li>东方财富行情</li>
+            <li>同花顺 iFinD</li>
+            <li>万得 Wind</li>
+            <li>自定义数据源</li>
+          </ul>
+        </div>
+        <div>
+          <div class="fh-spec-h">监管依据</div>
+          <ul class="fh-spec-list">
+            <li>《银行保险机构信息科技外包风险监管办法》</li>
+            <li>23 条评分规则</li>
+            <li>法律风险5条 / 经营风险4条<br>财务风险9条 / 舆情风险2条<br>关联与集中度风险3条</li>
+          </ul>
+        </div>
+      </div>
+      <div class="fh-disclaim">
+        <p>本系统结论基于公开数据源自动生成，仅供风险监控参考，不构成授信或合作决策的唯一依据。</p>
+        <p class="fh-m">AHP 一致性比率 <b>CR &lt; 0.1</b> 通过检验 · 规则扣分可追溯至监管条款</p>
+      </div>
+    </div>
+  </footer>
+</div>
+<!-- ===== /I2 ===== -->

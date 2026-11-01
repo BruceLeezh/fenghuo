@@ -1,0 +1,26 @@
+{
+  "name": "深圳市长亮科技股份有限公司",
+  "important_outsourcing": true,
+  "non_resident": false,
+  "cross_border": false,
+  "legal_events": [],
+  "news": [],
+  "financials": {
+    "debt_ratio": 27.2,
+    "current_ratio": 3.11,
+    "quick_ratio": 2.14,
+    "net_margin": 1.05,
+    "roe": 0.97,
+    "operating_cashflow": 147982356.92,
+    "net_profit": 20596631.87,
+    "revenue_yoy": 12.76,
+    "report_period": "2025年年报"
+  },
+  "registration": {
+    "legal_person": "王长春",
+    "established": "2002-04-28",
+    "status": "存续",
+    "stock_code": "300348",
+    "market": "SZ"
+  }
+}

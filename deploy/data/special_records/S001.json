@@ -1,0 +1,482 @@
+{
+  "ok": true,
+  "supplier": "北京科蓝软件系统股份有限公司",
+  "supplier_id": "S001",
+  "enterprise": {
+    "name": "北京科蓝软件系统股份有限公司",
+    "credit_code": "91110302717741973K",
+    "industry": "信息传输、软件和信息技术服务业-软件和信息技术服务业",
+    "region": "北京市-大兴区",
+    "status": "存续",
+    "roles": [
+      "招采单位",
+      "中标单位",
+      "投标单位",
+      "建设单位"
+    ],
+    "related": 1626,
+    "as_buyer": 15,
+    "as_bidder": 1529,
+    "as_winner": 1148,
+    "as_agent": 0
+  },
+  "records": [
+    {
+      "tender_id": "7586ce9d3d23c8ce927ab3d164609943",
+      "title": "盛银消费金融有限公司2026年自营产品客户端优化一期采购项目采购结果公示",
+      "info_type": "中标公告",
+      "status": "中标成交",
+      "region": "辽宁省-沈阳市-沈河区",
+      "buyer": "盛银消费金融有限公司",
+      "buyer_is_fin": true,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "",
+      "project_no": "SYXFJR_2026024",
+      "amount": 465000.0,
+      "publish_date": "2026-09-04",
+      "products": [
+        "客户端优化服务"
+      ],
+      "industry": "信息技术",
+      "is_outsource": false,
+      "non_competitive": false,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "0e1e0d5330b7781ac856c5cacf9e7a70",
+      "title": "唐山银行股份有限公司2026年第二季度电子银行系统开发框架服务项目谈判结果公示",
+      "info_type": "中标公告",
+      "status": "中标成交",
+      "region": "河北省-唐山市",
+      "buyer": "唐山银行股份有限公司",
+      "buyer_is_fin": true,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "单一来源",
+      "project_no": "",
+      "amount": 580000.0,
+      "publish_date": "2026-09-01",
+      "products": [
+        "电子银行系统开发框架服务"
+      ],
+      "industry": "信息技术",
+      "is_outsource": true,
+      "non_competitive": true,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "1d5f8fa5d5f0cd16b4b2ac217867a99d",
+      "title": "贵州银行应用软件开发服务采购项目(网上支付平台XC改造)中标公告",
+      "info_type": "中标公告",
+      "status": "中标成交",
+      "region": "贵州省-贵阳市",
+      "buyer": "贵州银行股份有限公司",
+      "buyer_is_fin": true,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "",
+      "project_no": "GZYH126000034",
+      "amount": 605000.0,
+      "publish_date": "2026-08-31",
+      "products": [
+        "应用软件开发服务"
+      ],
+      "industry": "服务采购",
+      "is_outsource": true,
+      "non_competitive": false,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "cce9ce614ab73e9e4161ace05fa2c7bb",
+      "title": "单一来源公示表-渠道整合平台信创及2026优化改造",
+      "info_type": "中标公告",
+      "status": "中标成交",
+      "region": "",
+      "buyer": "",
+      "buyer_is_fin": false,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "单一来源",
+      "project_no": "",
+      "amount": 9880000.0,
+      "publish_date": "2026-08-26",
+      "products": [
+        "渠道整合平台信创",
+        "优化改造"
+      ],
+      "industry": "工程建筑",
+      "is_outsource": true,
+      "non_competitive": true,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "07d9ceaf95f522b63dfcf8803624c7a5",
+      "title": "唐山银行股份有限公司2026年第二季度电子银行系统开发框架服务项目公示",
+      "info_type": "中标公告",
+      "status": "中标成交",
+      "region": "河北省-唐山市",
+      "buyer": "唐山银行股份有限公司",
+      "buyer_is_fin": true,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "竞谈",
+      "project_no": "",
+      "amount": 0.0,
+      "publish_date": "2026-08-24",
+      "products": [
+        "电子银行系统开发框架服务"
+      ],
+      "industry": "信息技术",
+      "is_outsource": true,
+      "non_competitive": false,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "90e4d9ecde34079cd8f979f311f6ad74",
+      "title": "电子银行合同借据线上化等需求开发项目(三次)成交结果公示",
+      "info_type": "中标公告",
+      "status": "中标成交",
+      "region": "四川省-宜宾市-叙州区",
+      "buyer": "",
+      "buyer_is_fin": false,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "单一来源",
+      "project_no": "JZXCS202607230001-01-3",
+      "amount": 0.0,
+      "publish_date": "2026-08-17",
+      "products": [
+        "电子银行合同借据线上化等需求开发"
+      ],
+      "industry": "通讯电子",
+      "is_outsource": true,
+      "non_competitive": true,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "d56bfc419eab8352232315e571f2c800",
+      "title": "移动金融管理平台二期项目(三次)成交结果公示",
+      "info_type": "中标公告",
+      "status": "中标成交",
+      "region": "四川省-宜宾市-叙州区",
+      "buyer": "",
+      "buyer_is_fin": false,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "单一来源",
+      "project_no": "JZXCS202607130001-01-3",
+      "amount": 0.0,
+      "publish_date": "2026-08-11",
+      "products": [
+        "移动金融管理平台二期项目"
+      ],
+      "industry": "信息技术",
+      "is_outsource": true,
+      "non_competitive": true,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "35654eba763bef0f954500a8ebf1bc61",
+      "title": "电子银行系统采购维保项目(三次)成交结果公示",
+      "info_type": "中标公告",
+      "status": "中标成交",
+      "region": "四川省-宜宾市",
+      "buyer": "",
+      "buyer_is_fin": false,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "单一来源",
+      "project_no": "JZXCS202607140004-01-3",
+      "amount": 0.0,
+      "publish_date": "2026-08-11",
+      "products": [
+        "电子银行系统采购维保"
+      ],
+      "industry": "通讯电子",
+      "is_outsource": true,
+      "non_competitive": true,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "eb6230b5be311b2fdb3b10e08332dd4f",
+      "title": "电子银行合同借据线上化等需求开发项目(三次)候选人公示",
+      "info_type": "中标公告",
+      "status": "中标候选",
+      "region": "",
+      "buyer": "",
+      "buyer_is_fin": false,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "单一来源",
+      "project_no": "JZXCS202607230001-01-3",
+      "amount": 0.0,
+      "publish_date": "2026-08-11",
+      "products": [
+        "电子银行合同借据线上化等需求开发"
+      ],
+      "industry": "通讯电子",
+      "is_outsource": true,
+      "non_competitive": true,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "60199c54ba63e461952064157fada67f",
+      "title": "秦皇岛银行股份有限公司手机银行理财样式改造项目成交结果公示",
+      "info_type": "中标公告",
+      "status": "中标成交",
+      "region": "河北省-秦皇岛市-海港区",
+      "buyer": "秦皇岛银行股份有限公司",
+      "buyer_is_fin": true,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "",
+      "project_no": "HXZB2026-C1-04176-001",
+      "amount": 273000.0,
+      "publish_date": "2026-08-11",
+      "products": [
+        "手机银行理财样式改造"
+      ],
+      "industry": "工程建筑",
+      "is_outsource": true,
+      "non_competitive": false,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "75d42551d25d8d4a1756ce2b6e22b486",
+      "title": "贵州银行应用软件开发服务采购项目(网上支付平台XC改造)采购结果公示",
+      "info_type": "中标公告",
+      "status": "中标成交",
+      "region": "贵州省-贵阳市-观山湖区",
+      "buyer": "贵州银行股份有限公司",
+      "buyer_is_fin": true,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "单一来源",
+      "project_no": "",
+      "amount": 0.0,
+      "publish_date": "2026-08-06",
+      "products": [
+        "应用软件开发服务"
+      ],
+      "industry": "服务采购",
+      "is_outsource": true,
+      "non_competitive": true,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "e39a24f89a478776011b27824190c01a",
+      "title": "电子银行系统采购维保项目(三次)候选人公示第2次候选人变更公告",
+      "info_type": "中标公告",
+      "status": "中标候选",
+      "region": "四川省-宜宾市-翠屏区",
+      "buyer": "宜宾市商业银行股份有限公司",
+      "buyer_is_fin": true,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "单一来源",
+      "project_no": "JZXCS202607140004-01-3",
+      "amount": 0.0,
+      "publish_date": "2026-07-31",
+      "products": [
+        "电子银行系统采购维保"
+      ],
+      "industry": "通讯电子",
+      "is_outsource": true,
+      "non_competitive": true,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "0f6a89171c411a981ae9adf230ab0cd0",
+      "title": "电子银行系统采购维保项目",
+      "info_type": "中标公告",
+      "status": "中标候选",
+      "region": "",
+      "buyer": "",
+      "buyer_is_fin": false,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "单一来源",
+      "project_no": "JZXCS202607140004-01-3",
+      "amount": 0.0,
+      "publish_date": "2026-07-31",
+      "products": [
+        "电子银行系统采购维保"
+      ],
+      "industry": "通讯电子",
+      "is_outsource": true,
+      "non_competitive": true,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "956909fbd2965746b63322cad5567155",
+      "title": "电子银行系统采购维保项目(三次)候选人公示",
+      "info_type": "中标公告",
+      "status": "中标候选",
+      "region": "四川省-宜宾市-翠屏区",
+      "buyer": "宜宾市商业银行股份有限公司",
+      "buyer_is_fin": true,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "单一来源",
+      "project_no": "JZXCS202607140004-01-3",
+      "amount": 0.0,
+      "publish_date": "2026-07-31",
+      "products": [
+        "电子银行系统采购维保"
+      ],
+      "industry": "通讯电子",
+      "is_outsource": true,
+      "non_competitive": true,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "5aaf18950331ffc0c50ca400d45e3167",
+      "title": "无锡农村商业银行员工劳保用品采购项目等项目成交结果公示",
+      "info_type": "中标公告",
+      "status": "中标成交",
+      "region": "江苏省-无锡市-梁溪区",
+      "buyer": "无锡农村商业银行股份有限公司",
+      "buyer_is_fin": true,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "货物",
+      "method": "",
+      "project_no": "",
+      "amount": 0.0,
+      "publish_date": "2026-07-30",
+      "products": [
+        "员工劳保用品"
+      ],
+      "industry": "弱电安防",
+      "is_outsource": false,
+      "non_competitive": false,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "e9ae0ea7e17141eeeafc9bf03d317285",
+      "title": "电子银行渠道银企直连新增票据与对账业务需求项目(四次)成交结果公示",
+      "info_type": "中标公告",
+      "status": "中标成交",
+      "region": "四川省-宜宾市-叙州区",
+      "buyer": "",
+      "buyer_is_fin": false,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "单一来源",
+      "project_no": "JZXCS202606240003-01-4",
+      "amount": 0.0,
+      "publish_date": "2026-07-28",
+      "products": [
+        "电子银行渠道银企直连新增票据与对账业务需求"
+      ],
+      "industry": "通讯电子",
+      "is_outsource": true,
+      "non_competitive": true,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "f69c9563b70e2b8c0f0ac8e12e9bd63e",
+      "title": "秦皇岛银行股份有限公司微信银行新增企业预约线上开户改造项目成交结果公示",
+      "info_type": "中标公告",
+      "status": "中标成交",
+      "region": "河北省-秦皇岛市-海港区",
+      "buyer": "秦皇岛银行股份有限公司",
+      "buyer_is_fin": true,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "",
+      "project_no": "HXZB2026-C1-04150-001",
+      "amount": 139800.0,
+      "publish_date": "2026-07-25",
+      "products": [
+        "微信银行新增企业预约线上开户改造"
+      ],
+      "industry": "工程建筑",
+      "is_outsource": true,
+      "non_competitive": false,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "614df50335cc1cd6946e6920c5c378cc",
+      "title": "2026年晋商银行科技项目开发外包服务人月单价谈判项目（标段六）中标结果公示",
+      "info_type": "中标公告",
+      "status": "中标成交",
+      "region": "山西省-太原市",
+      "buyer": "晋商银行",
+      "buyer_is_fin": true,
+      "winner": "上海达略数据技术有限公司",
+      "bid_type": "服务",
+      "method": "竞谈",
+      "project_no": "JC-2026TPFW040",
+      "amount": 0.0,
+      "publish_date": "2026-07-24",
+      "products": [
+        "科技项目开发外包服务"
+      ],
+      "industry": "服务采购",
+      "is_outsource": true,
+      "non_competitive": false,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "a7f638923bb9d0232caf48b94b22f435",
+      "title": "郑州银行企业网银信创改造项目对公网上银行系统成交结果公示",
+      "info_type": "中标公告",
+      "status": "中标成交",
+      "region": "河南省-郑州市-金水区",
+      "buyer": "郑州银行股份有限公司",
+      "buyer_is_fin": true,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "单一来源",
+      "project_no": "03-06-04H-2026-D-F-E16539",
+      "amount": 0.0,
+      "publish_date": "2026-07-24",
+      "products": [
+        "企业网银信创改造项目对公网上银行系统"
+      ],
+      "industry": "工程建筑",
+      "is_outsource": true,
+      "non_competitive": true,
+      "role": "中标单位"
+    },
+    {
+      "tender_id": "41f931cfd0eb3f0ba163c585934ebc7c",
+      "title": "秦皇岛银行股份有限公司手机银行理财样式改造项目单一来源采购公告",
+      "info_type": "中标公告",
+      "status": "中标成交",
+      "region": "河北省-秦皇岛市",
+      "buyer": "秦皇岛银行股份有限公司",
+      "buyer_is_fin": true,
+      "winner": "北京科蓝软件系统股份有限公司",
+      "bid_type": "服务",
+      "method": "单一来源",
+      "project_no": "HXZB2026-C1-04176-001",
+      "amount": 296800.0,
+      "publish_date": "2026-07-24",
+      "products": [
+        "手机银行理财样式改造"
+      ],
+      "industry": "工程建筑",
+      "is_outsource": true,
+      "non_competitive": true,
+      "role": "中标单位"
+    }
+  ],
+  "error": "",
+  "query_summary": {
+    "命中总数": 1148,
+    "结果说明": "共检索到 1148 条标讯，已返回前 20 条，如需更多请收窄筛选条件后重试。",
+    "企业ID": "eid1.yuy5Ndm7sOhXl6sG.EzArEyF9Wy5jW0PInWW7zjvhJ6qABo0Z8jOwpTLM9AM.OJp6TwbsnTWcnlQ8H5wm-Q",
+    "企业名称": "北京科蓝软件系统股份有限公司",
+    "企业角色视角": "中标方",
+    "生效筛选": {
+      "企业": "北京科蓝软件系统股份有限公司",
+      "企业角色": [
+        "中标方"
+      ]
+    }
+  },
+  "total_hits": 1148,
+  "cached_at": "2026-09-10T23:49:04"
+}

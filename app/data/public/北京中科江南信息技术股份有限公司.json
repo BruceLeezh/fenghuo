@@ -1,0 +1,40 @@
+{
+ "name": "北京中科江南信息技术股份有限公司",
+ "important_outsourcing": false,
+ "non_resident": false,
+ "cross_border": false,
+ "legal_events": [],
+ "news": [
+  {
+   "title": "中科江南(301153) 盈利预测-业绩预测 业绩预测详表 研报评级",
+   "sentiment": "positive",
+   "severity": "low",
+   "published_at": "2026-10-17",
+   "source": "同花顺 iFinD 资讯",
+   "url": "https://basic.10jqka.com.cn/301153/worth.html",
+   "evidence": "中科江南(301153) 盈利预测-业绩预测 业绩预测详表 研报评级。业绩预测。截至2026-10-16，6个月以内共有 5 家机构对中科江南的2026年度业绩作出预测；。 预测2026年每股收益 0.42 元，较去年同比增长 44.83%， 预测2026年净利润 1.49 亿元，较去年同比增长 47.52%。业绩预测。净利润 预测净利润 每股收益 预测每股收益。 | 2028 | 4 | 2.0"
+  }
+ ],
+ "financials": {
+  "debt_ratio": 21.0082,
+  "current_ratio": null,
+  "quick_ratio": null,
+  "net_margin": -4.9416,
+  "gross_margin": null,
+  "roe": -0.81,
+  "roa": null,
+  "operating_cashflow": -115628473.45,
+  "net_profit": -13209381.06,
+  "revenue": 267309999.99999997,
+  "total_assets": null,
+  "revenue_yoy": null,
+  "profit_yoy": null,
+  "audit_opinion": null,
+  "report_period": "最新一期(MRQ)"
+ },
+ "registration": {
+  "_adapter": "ifind",
+  "_snapshot_at": "2026-10-17",
+  "_snapshot_sources": "ifind"
+ }
+}

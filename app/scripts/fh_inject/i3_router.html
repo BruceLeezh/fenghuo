@@ -1,0 +1,244 @@
+<script id="fh-router">
+/* ======================================================================
+   烽火 · 首页改版注入层（I3 · 路由内核）
+   依据：《烽火-首页改版设计方案V1》§6 / §7.4 / §7.5
+   契约：
+     · 只**调用**真源 switchPage(which) / switchTab(name, btn)，签名与函数体零改动；
+     · location.hash 由本层独占（唯一状态写入者），页内锚点走 data-fh-scroll；
+     · 路由 token 一律 1:1 落到既有 (page, pane)，不与任何元素 id 同名；
+     · 滚动守卫双管治 S1/S2（显式 behavior:"smooth" 优先于 CSS，必须包装 window.scrollTo）。
+   ====================================================================== */
+(function(){
+  "use strict";
+
+  /* ---------- 工具 ---------- */
+  function el(id){ return document.getElementById(id); }
+  function homeEl(){ return el("fhHome"); }
+  function opsEl(){ return el("fhOps"); }
+  function rootEl(){ return document.documentElement; }
+
+  /* ---------- 路由表（冻结契约 §6.1） ---------- */
+  var PANES = ["board","roster","concentration","scenario","servicelevel",
+               "simulator","calendar","workorder","report"];
+  function isPane(t){ for (var i=0;i<PANES.length;i++){ if (PANES[i]===t) return true; } return false; }
+
+  /* 解析 hash → 归一化路由 token；非法 token 回落并归一化地址（不白屏、不报错） */
+  function resolve(raw){
+    var h = (raw || "").replace(/^#/, "");
+    if (h === "" || h === "/" || h === "/home") return { page:"home", pane:null, token:"/home" };
+    var seg = h.replace(/^\//, "").split("/");
+    if (seg[0] === "scan") return { page:"scan", pane:null, token:"/scan" };
+    if (seg[0] === "monitor"){
+      var pane = seg[1] || "board";
+      if (!isPane(pane)) pane = "board";                       /* R6：非法 pane → board */
+      return { page:"monitor", pane:pane, token:"/monitor/" + pane };
+    }
+    /* 别名：单段 pane token（#/roster 等）自动升格为 #/monitor/<pane> */
+    if (isPane(seg[0])) return { page:"monitor", pane:seg[0], token:"/monitor/" + seg[0] };
+    return { page:"home", pane:null, token:"/home" };          /* R6：未知 token → home */
+  }
+
+  /* ---------- 真源既有元素的定位（只读，不改） ---------- */
+  function paneBtn(pane){
+    var btns = document.querySelectorAll("#pageMonitor .subnav button");
+    for (var i=0;i<btns.length;i++){
+      var oc = btns[i].getAttribute("onclick") || "";
+      if (oc.indexOf("'" + pane + "'") >= 0) return btns[i];
+    }
+    return null;
+  }
+
+  /* ---------- §7.5 滚动守卫（双管，治 S1 + S2） ----------
+     S1：switchPage 内 window.scrollTo({behavior:"smooth"}) —— 显式参数优先于 CSS，只能包装；
+     S2：hash 变更触发的片段滚动 —— 内联 html{scroll-behavior:auto} 可治。
+     两者只在「同步切换」的毫秒级窗口内生效，finally 立即还原；重入保护兜底。 */
+  var _scrollGuard = false;
+  function withInstantScroll(fn){
+    if (_scrollGuard){ fn(); return; }
+    var root = rootEl();
+    var origST = window.scrollTo;
+    var prevSB = root.style.scrollBehavior;
+    _scrollGuard = true;
+    root.style.scrollBehavior = "auto";                        /* 治 S2 */
+    window.scrollTo = function(a){                             /* 治 S1 */
+      if (a && typeof a === "object") a = Object.assign({}, a, { behavior:"auto" });
+      return origST.call(window, a);
+    };
+    try { fn(); }
+    finally {
+      window.scrollTo = origST;
+      root.style.scrollBehavior = prevSB;
+      _scrollGuard = false;
+    }
+  }
+
+  /* ---------- 层切换（§7.4 时间轴：出 220 → display 交换 → 进 320，共 540ms） ---------- */
+  var _lastRoute = null, _driving = false, _timer1 = null, _timer2 = null;
+
+  function setHomeVisible(visible){
+    var h = homeEl(), o = opsEl();
+    if (!h || !o) return;
+    h.hidden = !visible;
+    o.hidden = visible;
+    document.body.classList.toggle("fh-home", visible);
+  }
+
+  function drive(page, pane){
+    /* 只调用真源函数；滚动守卫包住这个同步窗口 */
+    withInstantScroll(function(){
+      if (page === "scan"){ window.switchPage("scan"); }
+      else if (page === "monitor"){ window.switchPage("monitor"); window.switchTab(pane || "board", paneBtn(pane || "board")); }
+    });
+  }
+
+  function clearFx(elm){ if (elm){ elm.classList.remove("fh-leaving","fh-entering"); } }
+
+  function onRoute(initial){
+    if (_driving) return;                                      /* 防重入 */
+    var r = resolve(location.hash);
+    var token = r.token;
+    /* 地址归一化：非法 token / 别名 / 裸 #/ → replaceState 写回规范地址
+       （不新增历史记录；方案 §6.1「不白屏、不报错」+ R6 验收项） */
+    if (location.hash !== "#" + token){
+      try { history.replaceState(null, "", "#" + token); } catch (e) {}
+    }
+    if (_lastRoute === token && !initial) return;              /* 去重：同一路由不重放 */
+    _lastRoute = token;
+    _driving = true;
+
+    var h = homeEl(), o = opsEl();
+    var toHome = (r.page === "home");
+    var curHome = !h.hidden;
+    var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    function finish(){
+      clearFx(h); clearFx(o);
+      _driving = false;
+    }
+
+    if (toHome === curHome){
+      /* 同层内的 pane 切换（或首次归一化）：无层过渡，直接驱动 */
+      if (!toHome) drive(r.page, r.pane);
+      finish();
+      return;
+    }
+
+    if (reduce){
+      /* 降级：瞬时换层，无过渡 */
+      setHomeVisible(toHome);
+      if (!toHome) drive(r.page, r.pane);
+      window.scrollTo(0, 0);
+      finish();
+      return;
+    }
+
+    /* ① 旧层离场 220ms */
+    var outEl = toHome ? o : h;
+    outEl.classList.add("fh-leaving");
+    _timer1 = setTimeout(function(){
+      /* ② display 交换（必须放在出场结束后，否则 display:none 会中断过渡造成闪烁） */
+      setHomeVisible(toHome);
+      clearFx(outEl);
+      var inEl = toHome ? h : o;
+      inEl.classList.add("fh-entering");
+      /* ③ 驱动真源切换（滚动已被守卫改为瞬时） */
+      if (!toHome) drive(r.page, r.pane);
+      window.scrollTo(0, 0);
+      /* ④ 入场 320ms 后清理 */
+      _timer2 = setTimeout(function(){ clearFx(inEl); finish(); }, 320);
+    }, 220);
+  }
+
+  /* ---------- 滚动揭示（IntersectionObserver，M9/M10/M11） ----------
+     .fh-rv 基础态为隐藏（opacity:0），必须由本观察器补 .fh-in 才可见。
+     兜底：不支持 IO 的环境直接全部置为终态（不留空白）。
+     注意：#fhHome 初始为 hidden，元素在隐藏容器内不会触发 IO —— 回到首页时
+     元素变为可见，IO 会在下一帧自动补发，无需额外处理。 */
+  function setupReveal(){
+    var els = Array.prototype.slice.call(document.querySelectorAll("#fhHome .fh-rv"));
+    if (!("IntersectionObserver" in window)){
+      els.forEach(function(e){ e.classList.add("fh-in"); });
+      return;
+    }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.isIntersecting){ e.target.classList.add("fh-in"); io.unobserve(e.target); }
+      });
+    }, { threshold:.18, rootMargin:"0px 0px -6% 0px" });
+    els.forEach(function(e){ io.observe(e); });
+  }
+
+  /* ---------- 既有导航按钮 → 路由 token（机制 A：capture 拦截 inline onclick） ---------- */
+  function tokenForButton(btn){
+    if (btn.id === "navScan") return "#/scan";
+    if (btn.id === "navMonitor") return "#/monitor";
+    if (btn.closest && btn.closest("#pageMonitor .subnav")){
+      var oc = btn.getAttribute("onclick") || "";
+      var m = oc.match(/'([a-z]+)'/);
+      if (m && isPane(m[1])) return "#/monitor/" + m[1];
+    }
+    return null;
+  }
+
+  document.addEventListener("click", function(e){
+    /* ① 页内锚点：href 恒为路由 token，锚点目标走 data-fh-scroll（§6.5） */
+    var sc = e.target.closest ? e.target.closest("[data-fh-scroll]") : null;
+    if (sc){
+      e.preventDefault();
+      var t = el(sc.getAttribute("data-fh-scroll"));
+      if (!t) return;
+      if (location.hash !== "#/home"){
+        _lastRoute = "/home";
+        history.replaceState(null, "", "#/home");
+      }
+      var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      t.scrollIntoView({ block:"start", behavior: reduce ? "instant" : "smooth" });
+      return;
+    }
+    /* ② 既有导航按钮：拦掉 inline onclick，改为写 hash（唯一状态写入者） */
+    var btn = e.target.closest ? e.target.closest(".topnav button, .subnav button") : null;
+    if (btn){
+      var token = tokenForButton(btn);
+      if (token && location.hash !== token){
+        e.preventDefault();
+        e.stopPropagation();
+        location.hash = token;
+      }
+    }
+  }, true);
+
+  /* Esc：从操作层返回首页（与浏览器后退等价的键盘路径） */
+  document.addEventListener("keydown", function(e){
+    if (e.key === "Escape" && homeEl().hidden && _lastRoute && _lastRoute !== "/home"){
+      location.hash = "#/home";
+    }
+  });
+
+  window.addEventListener("hashchange", function(){ onRoute(false); });
+  window.addEventListener("popstate", function(){ onRoute(false); });
+
+  /* ---------- 启动：初始化层可见性 + 首屏地址归一化（只在首次做） ---------- */
+  function boot(){
+    var h = homeEl(), o = opsEl();
+    if (!h || !o) return;
+    var r0 = resolve(location.hash);
+    /* 首屏归一化：空 hash / #/ 等首页别名 → 规范地址 #/home（只在首次做，不动历史） */
+    if (location.hash !== "#" + r0.token){
+      try { history.replaceState(null, "", "#" + r0.token); } catch (e) {}
+    }
+    setupReveal();
+    _lastRoute = r0.token;
+    var toHome = (r0.page === "home");
+    h.hidden = !toHome;
+    o.hidden = toHome;
+    document.body.classList.toggle("fh-home", toHome);
+    if (!toHome) drive(r0.page, r0.pane);
+  }
+
+  if (document.readyState === "loading"){
+    document.addEventListener("DOMContentLoaded", boot);
+  } else {
+    boot();
+  }
+})();
+</script>

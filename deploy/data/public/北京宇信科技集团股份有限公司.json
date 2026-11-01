@@ -1,0 +1,26 @@
+{
+  "name": "北京宇信科技集团股份有限公司",
+  "important_outsourcing": true,
+  "non_resident": false,
+  "cross_border": false,
+  "legal_events": [],
+  "news": [],
+  "financials": {
+    "debt_ratio": 32.55,
+    "current_ratio": 2.44,
+    "quick_ratio": 2.07,
+    "net_margin": 12.09,
+    "roe": 9.75,
+    "operating_cashflow": 621367006.45,
+    "net_profit": 437894932.51,
+    "revenue_yoy": -8.46,
+    "report_period": "2025年年报"
+  },
+  "registration": {
+    "legal_person": "洪卫东",
+    "established": "2006-10-19",
+    "status": "存续",
+    "stock_code": "300674",
+    "market": "SZ"
+  }
+}
