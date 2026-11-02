@@ -97,10 +97,13 @@ export DEEPSEEK_MODEL="deepseek-flash"                 # 默认，可改为 deep
 | 涉密上传 | 临时文件落本机、处理完在 finally 分支删除，异常路径也删 | `server.py::upload` |
 | 涉密部署 | 可独立进程/端口，仅监听 127.0.0.1，路由表只留上传一条 | `classified_server.py` |
 | 公开查询 | 送往云端 LLM 前**先在本机脱敏**（公司名/金额/账号/手机号 → 占位符），返回后本机还原，映射表不落盘不过网 | `server.py::_mask_text` / `security/desensitize.py` |
+| 涉密上传 | **前端云摘要守卫**：涉密通道结果页 AI 区显示固定说明（"不调用任何模型"），绝不触发任何云 LLM 调用，评分明细零外发 | `static/index.html::showResult`（`isClassified` 分支） |
+| 公开查询 | 前端 WorkBuddy 云摘要（后端未配 DeepSeek key 时的降级通道）**只服务公开通道**；提示词中公司名按脱敏口径以「目标供应商」指代，不外发 | `static/index.html::fhBuildPrompt` / `ui_verify_cloud_guard.js` |
 | 请求来源 | 跨域白名单由通配符收紧为显式枚举，可用 `ALLOWED_ORIGINS` 覆盖 | `server.py` |
 
 回归验证：`python scripts/verify_security.py`（15 条断言，含"把解析器换成会联网的实现，
-守卫必须拦住"的端到端取证）。
+守卫必须拦住"的端到端取证）；前端云通道守卫另见 `scripts/ui_verify_cloud_guard.js`
+（14 条断言：涉密零外发 / 公开通道脱敏 / 后端有叙述不重复调用）。
 
 ## API 接口
 

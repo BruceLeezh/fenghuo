@@ -16,13 +16,22 @@ import os
 import sys
 from datetime import date, timedelta
 
+HERE = os.path.dirname(os.path.abspath(__file__))
+# 项目根 = 向上找到包含 01_交付包 的目录（app 树与交付包树通用，迁移后仍有效）
+_root = os.path.dirname(HERE)
+for _ in range(4):
+    if os.path.isdir(os.path.join(_root, "01_交付包")):
+        break
+    _root = os.path.dirname(_root)
+ROOT = _root
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from core import roster as roster_mod          # noqa: E402
 from openpyxl import load_workbook             # noqa: E402
 
-XLSX = r"D:\金融科技专项赛\02_工作区\行内数据\九江银行在管供应商清单_软件系统服务.xlsx"
-BAK = r"D:\金融科技专项赛\02_工作区\_roster_before_fixture.json"
+XLSX = os.path.join(ROOT, "02_工作区", "行内数据", "九江银行在管供应商清单_软件系统服务.xlsx")
+BAK = os.path.join(ROOT, "02_工作区", "_roster_before_fixture.json")
 SRC_LABEL = "公开中标"
 
 # 公开项目的项目类型 → 《办法》第12条外包分类（与 make_roster_import.py 同一口径）

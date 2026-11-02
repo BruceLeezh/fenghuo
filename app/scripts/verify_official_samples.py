@@ -19,6 +19,12 @@ import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 APP = os.path.dirname(HERE)
+# 项目根 = 向上找到包含 01_交付包 的目录（app 树与交付包树通用，迁移后仍有效）
+ROOT = os.path.dirname(APP)
+for _ in range(3):
+    if os.path.isdir(os.path.join(ROOT, "01_交付包")):
+        break
+    ROOT = os.path.dirname(ROOT)
 if APP not in sys.path:
     sys.path.insert(0, APP)
 
@@ -27,7 +33,7 @@ try:
 except Exception:  # noqa: BLE001
     pass
 
-DEFAULT_DIR = r"D:\金融科技专项赛\01_交付包\8-李卓昊\模拟数据"
+DEFAULT_DIR = os.path.join(ROOT, "01_交付包", "模拟数据")
 
 # 6 份文件实为 2 家供应商 × 各 3 份，文件名直接对应六个维度
 GROUPS = {

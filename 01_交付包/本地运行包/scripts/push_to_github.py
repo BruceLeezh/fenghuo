@@ -20,7 +20,11 @@ import base64
 import hashlib
 import os
 
-OWNER, REPO, BRANCH = "BruceLeezh", "-", "main"
+OWNER, REPO, BRANCH = "BruceLeezh", "fenghuo", "main"
+
+# 这些文件含真实凭据或运行时数据，永远不推（deploy/.env、source_config 曾真实存有密钥）
+SKIP_NAMES = {".env", ".github_token", "source_config.json", "qcc_cache.json"}
+SKIP_SUFFIX = (".pyc", ".pyo", ".log", ".bak")
 
 SRC = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
 DEPLOY = os.path.abspath(os.path.join(SRC, "..", "deploy"))
@@ -47,9 +51,9 @@ def blob_sha(data: bytes) -> str:
 def collect_files():
     files = []
     for root, dirs, fs in os.walk(DEPLOY):
-        dirs[:] = [d for d in dirs if d not in (".git", "__pycache__")]
+        dirs[:] = [d for d in dirs if d not in (".git", "__pycache__", "node_modules")]
         for f in fs:
-            if f.endswith((".pyc", ".pyo")):
+            if f.endswith(SKIP_SUFFIX) or f in SKIP_NAMES:
                 continue
             p = os.path.join(root, f)
             files.append((os.path.relpath(p, DEPLOY).replace("\\", "/"), p))
